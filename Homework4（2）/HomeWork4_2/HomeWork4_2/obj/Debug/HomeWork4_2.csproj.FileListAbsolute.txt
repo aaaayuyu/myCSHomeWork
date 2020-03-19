@@ -1,0 +1,14 @@
+D:\soft\vs2017安装\vs 编写项目文件\HomeWork4_2\HomeWork4_2\bin\Debug\HomeWork4_2.exe.config
+D:\soft\vs2017安装\vs 编写项目文件\HomeWork4_2\HomeWork4_2\bin\Debug\HomeWork4_2.exe
+D:\soft\vs2017安装\vs 编写项目文件\HomeWork4_2\HomeWork4_2\bin\Debug\HomeWork4_2.pdb
+D:\soft\vs2017安装\vs 编写项目文件\HomeWork4_2\HomeWork4_2\obj\Debug\HomeWork4_2.csprojAssemblyReference.cache
+D:\soft\vs2017安装\vs 编写项目文件\HomeWork4_2\HomeWork4_2\obj\Debug\HomeWork4_2.csproj.CoreCompileInputs.cache
+D:\soft\vs2017安装\vs 编写项目文件\HomeWork4_2\HomeWork4_2\obj\Debug\HomeWork4_2.exe
+D:\soft\vs2017安装\vs 编写项目文件\HomeWork4_2\HomeWork4_2\obj\Debug\HomeWork4_2.pdb
+D:\soft\vs2017安装\vs 编写项目文件\Homework4\HomeWork4_2\HomeWork4_2\bin\Debug\HomeWork4_2.exe.config
+D:\soft\vs2017安装\vs 编写项目文件\Homework4\HomeWork4_2\HomeWork4_2\bin\Debug\HomeWork4_2.exe
+D:\soft\vs2017安装\vs 编写项目文件\Homework4\HomeWork4_2\HomeWork4_2\bin\Debug\HomeWork4_2.pdb
+D:\soft\vs2017安装\vs 编写项目文件\Homework4\HomeWork4_2\HomeWork4_2\obj\Debug\HomeWork4_2.csprojAssemblyReference.cache
+D:\soft\vs2017安装\vs 编写项目文件\Homework4\HomeWork4_2\HomeWork4_2\obj\Debug\HomeWork4_2.csproj.CoreCompileInputs.cache
+D:\soft\vs2017安装\vs 编写项目文件\Homework4\HomeWork4_2\HomeWork4_2\obj\Debug\HomeWork4_2.exe
+D:\soft\vs2017安装\vs 编写项目文件\Homework4\HomeWork4_2\HomeWork4_2\obj\Debug\HomeWork4_2.pdb
