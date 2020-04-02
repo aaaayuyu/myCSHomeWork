@@ -1,0 +1,7 @@
+D:\soft\vs2017安装\vs 编写项目文件\BookingSystem\BookingSystem\obj\Debug\BookingSystem.csprojAssemblyReference.cache
+D:\soft\vs2017安装\vs 编写项目文件\BookingSystem\BookingSystem\obj\Debug\BookingSystem.csproj.CoreCompileInputs.cache
+D:\soft\vs2017安装\vs 编写项目文件\BookingSystem\BookingSystem\bin\Debug\BookingSystem.exe.config
+D:\soft\vs2017安装\vs 编写项目文件\BookingSystem\BookingSystem\bin\Debug\BookingSystem.exe
+D:\soft\vs2017安装\vs 编写项目文件\BookingSystem\BookingSystem\bin\Debug\BookingSystem.pdb
+D:\soft\vs2017安装\vs 编写项目文件\BookingSystem\BookingSystem\obj\Debug\BookingSystem.exe
+D:\soft\vs2017安装\vs 编写项目文件\BookingSystem\BookingSystem\obj\Debug\BookingSystem.pdb
