@@ -1,0 +1,15 @@
+D:\soft\vs2017安装\vs 编写项目文件\HomeWork8\HomeWork8\bin\Debug\HomeWork8.exe.config
+D:\soft\vs2017安装\vs 编写项目文件\HomeWork8\HomeWork8\bin\Debug\HomeWork8.exe
+D:\soft\vs2017安装\vs 编写项目文件\HomeWork8\HomeWork8\bin\Debug\HomeWork8.pdb
+D:\soft\vs2017安装\vs 编写项目文件\HomeWork8\HomeWork8\bin\Debug\OrderApp.exe
+D:\soft\vs2017安装\vs 编写项目文件\HomeWork8\HomeWork8\bin\Debug\OrderApp.pdb
+D:\soft\vs2017安装\vs 编写项目文件\HomeWork8\HomeWork8\bin\Debug\OrderApp.exe.config
+D:\soft\vs2017安装\vs 编写项目文件\HomeWork8\HomeWork8\obj\Debug\HomeWork8.csprojAssemblyReference.cache
+D:\soft\vs2017安装\vs 编写项目文件\HomeWork8\HomeWork8\obj\Debug\HomeWork8.Form1.resources
+D:\soft\vs2017安装\vs 编写项目文件\HomeWork8\HomeWork8\obj\Debug\HomeWork8.Properties.Resources.resources
+D:\soft\vs2017安装\vs 编写项目文件\HomeWork8\HomeWork8\obj\Debug\HomeWork8.csproj.GenerateResource.cache
+D:\soft\vs2017安装\vs 编写项目文件\HomeWork8\HomeWork8\obj\Debug\HomeWork8.csproj.CoreCompileInputs.cache
+D:\soft\vs2017安装\vs 编写项目文件\HomeWork8\HomeWork8\obj\Debug\HomeWork8.csproj.CopyComplete
+D:\soft\vs2017安装\vs 编写项目文件\HomeWork8\HomeWork8\obj\Debug\HomeWork8.exe
+D:\soft\vs2017安装\vs 编写项目文件\HomeWork8\HomeWork8\obj\Debug\HomeWork8.pdb
+D:\soft\vs2017安装\vs 编写项目文件\HomeWork8\HomeWork8\obj\Debug\HomeWork8.FormOrderEidt.resources
