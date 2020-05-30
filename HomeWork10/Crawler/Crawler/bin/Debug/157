@@ -1,0 +1,601 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>bigsai - 博客园</title>
+    <link id="favicon" rel="shortcut icon" href="//common.cnblogs.com/favicon.ico?v=20200522" type="image/x-icon" />
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=KCO3_f2W_TC__-jZ7phSnmoFkQuWMJH2yAgA16eE3eY" />
+    <link id="MainCss" rel="stylesheet" href="/skins/blacklowkey/bundle-blacklowkey.min.css?v=j7tHgwfwJlsr7nTrn_ZMLXE-yGBgD-V31AUkQVGn0Hk" />
+    
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/blacklowkey/bundle-blacklowkey-mobile.min.css?v=cYvlxMu_nd6MVfg-vi7YqOC6FaZ7VHFsDM166vO_ekA" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/bigsai/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/bigsai/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/bigsai/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=6bwfCY2e02dLOXNW99G2BHZkYFmw9QyYTWeJ-W-sudo"></script>
+    <script>
+        var currentBlogId = 528115;
+        var currentBlogApp = 'bigsai';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'BlackLowKey';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    <div id="page_begin_html">
+        个人公众号交流：bigsai
+
+    </div>
+    
+<!--done-->
+<div id="home">
+<div id="header">
+	<div id="blogTitle">
+        <a id="lnkBlogLogo" href="https://www.cnblogs.com/bigsai/"><img id="blogLogo" src="/skins/custom/images/logo.gif" alt="返回主页" /></a>		
+		
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/bigsai/">bigsai</a>
+</h1>
+<h2>
+
+</h2>
+
+
+
+
+		
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+	<div id="navigator">
+		
+<ul id="navList">
+<li><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+<li>
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/bigsai/">
+首页</a>
+</li>
+<li>
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+<li>
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/bigsai">
+联系</a></li>
+<li>
+<a id="blog_nav_rss" class="menu" href="javascript:void(0)" data-rss="https://www.cnblogs.com/bigsai/rss/">
+订阅</a>
+<!--<partial name="./Shared/_XmlLink.cshtml" model="Model" /></li>--></li>
+<li>
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+</ul>
+
+
+		<div class="blogStats">
+			
+			<span id="stats_post_count">随笔 - 
+26&nbsp; </span>
+<span id="stats_article_count">文章 - 
+0&nbsp; </span>
+<span id="stats-comment_count">评论 - 
+59</span>
+
+			
+		</div><!--end: blogStats -->
+	</div><!--end: navigator 博客导航栏 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+		
+<!--done-->
+
+
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/bigsai/archive/2019/09/23.html">2019年9月23日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/bigsai/p/11571715.html">
+[置顶]    我用数据结构花了一夜给女朋友写了个h5走迷宫小游戏
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：@ &quot;TOC&quot; 先看效果图(在线电脑尝试地址 &quot;http://biggsai.com/maze.html&quot; )： 起因 又到深夜了，我按照以往在 写着数据结构！这占用了我大量的时间！我的超越妹妹严重缺乏陪伴而 怨气满满！ 超越妹妹时常埋怨，认为数据结构这么抽象难懂的东西没啥作用，常会问道：天天写这玩            <a href="https://www.cnblogs.com/bigsai/p/11571715.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2019-09-23 12:42
+bigsai
+<span class="post-view-count">阅读(4643)</span><text> </text>
+<span class="post-comment-count">评论(30)</span><text> </text>
+<span class="post-digg-count">推荐(21)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11571715" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/bigsai/archive/2019/08/14.html">2019年8月14日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/bigsai/p/11351153.html">
+[置顶]    数据结构与算法—一文多图搞懂双链表
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：前言 前面讲过线性表中顺序表和链表的实现和性质。但是在数据结构与算法中，双向链表无论在考察还是运用中都占有很大的比例，笔者旨在通过本文与读者一起学习分享双链表相关知识。 双链表介绍 与单链表区别 逻辑上没有区别。他们均是完成线性表的内容。主要的区别是结构上的构造有所区别。&#160;对于单链表： 对于一个节点            <a href="https://www.cnblogs.com/bigsai/p/11351153.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2019-08-14 12:07
+bigsai
+<span class="post-view-count">阅读(1316)</span><text> </text>
+<span class="post-comment-count">评论(2)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11351153" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/bigsai/archive/2020/05/30.html">2020年5月30日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/bigsai/p/12992061.html">
+    考研经验分享(上岸南理工)
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：前言 对于很多人来说，考研(升学)是一个不可避免的话题，这其中也面临着很大的抉择和犹豫之中。如果是其他专业的话，这方面的犹豫和挣扎可能少一点，但是对于计算机专业的我们来说，这方面的犹豫可能会更多一些。今天借着这个话题聊聊考研以及自己路途的所见所闻。以下均代表个人意见，请斟酌查看！ 为什么考研 首先，            <a href="https://www.cnblogs.com/bigsai/p/12992061.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-05-30 12:53
+bigsai
+<span class="post-view-count">阅读(47)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12992061" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/bigsai/archive/2020/05/05.html">2020年5月5日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/bigsai/p/12830809.html">
+    剑指offer(1-10题)详解
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：微信公众号：bigsai声明：大部分题基本未参考题解，基本为个人想法，如果由效率太低的或者错误还请指正！，如果有误导，还请指正！ 01二维数组的查找 题目描述 在一个二维数组中（每个一维数组的长度相同），每一行都按照从左到右递增的顺序排序，每一列都按照从上到下递增的顺序排序。请完成一个函数，输入这样            <a href="https://www.cnblogs.com/bigsai/p/12830809.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-05-05 15:05
+bigsai
+<span class="post-view-count">阅读(19)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12830809" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/bigsai/archive/2020/04/29.html">2020年4月29日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/bigsai/p/12803167.html">
+    毕业季疫情下的校园生活是咋样的？
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：前言 我们长那么那，可能从来没遇到这么长的假期。假期一次又一次的续费，无疑是让我们受宠若惊了呢。 很多小老弟问我为啥最近不更了，主要是最近确实有一些其他事情没有更吧。现在大部分事情也比较安定。今天刚好已经来校一周，刚好也分享一下吧！ 求职面试 笔者也是考研大军茫茫的一员，不幸专业课崩盘报考学校也比较            <a href="https://www.cnblogs.com/bigsai/p/12803167.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-04-29 16:48
+bigsai
+<span class="post-view-count">阅读(589)</span><text> </text>
+<span class="post-comment-count">评论(4)</span><text> </text>
+<span class="post-digg-count">推荐(5)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12803167" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/bigsai/archive/2020/02/02.html">2020年2月2日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/bigsai/p/12253254.html">
+    归并排序(逆序数问题)详解
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：微信公众号：bigsai 前言 在排序中，我们可能大部分更熟悉冒泡排序、快排之类。对归并排序可能比较陌生。然而事实上归并排序也是一种稳定的排序，时间复杂度为O(nlogn). 归并排序是基于分治进行归并的，有二路归并和多路归并.我们这里只讲二路归并并且日常用的基本是二路归并。并且归并排序的实现方式有            <a href="https://www.cnblogs.com/bigsai/p/12253254.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-02-02 19:06
+bigsai
+<span class="post-view-count">阅读(217)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12253254" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/bigsai/archive/2020/01/16.html">2020年1月16日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/bigsai/p/12201842.html">
+    剑指offer倒计时打卡计划
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：文章目录 一些计划。 一些叮嘱 一些计划。 这个寒假笔者打算和大家一起开启刷题计划，先搞剑指offer。如果氛围可以可以持久搞leetcode。 至于刷题计划，因为剑指offer的牛客专题是67道有限的，我想着稍微高点强度的要把剑指offer先搞完。当然至于每天大概的计划还是要根据大部分人的具体情况            <a href="https://www.cnblogs.com/bigsai/p/12201842.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-01-16 16:14
+bigsai
+<span class="post-view-count">阅读(31)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12201842" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/bigsai/archive/2020/01/09.html">2020年1月9日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/bigsai/p/12173012.html">
+    再也不怕和老外交流了！我用python实现一个微信聊天翻译助手！
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：前言 在前面的一篇文章如何用python“优雅的”调用有道翻译中咱们清楚的写过如何一层一层的解开有道翻译的面纱，并且笔者说过那只是脑洞的开始。现在笔者又回来了。当你遇到一些外国小哥哥小姐姐很心动、想结识交流，但英语水平或其他水平还在提升阶段，这个小工具可以帮你渡过难关！Teach you how t            <a href="https://www.cnblogs.com/bigsai/p/12173012.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-01-09 18:44
+bigsai
+<span class="post-view-count">阅读(508)</span><text> </text>
+<span class="post-comment-count">评论(2)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12173012" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/bigsai/archive/2019/12/27.html">2019年12月27日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/bigsai/p/12107143.html">
+    如何用python“优雅的”调用有道翻译？
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：前言 其实在以前就盯上有道翻译了的，但是由于时间问题一直没有研究(我的骚操作还在后面，记得关注)，本文主要讲解如何用python调用有道翻译，讲解这个爬虫与有道翻译的js“斗争”的过程！ 当然，本文仅供交流学习使用，适合自己做一些小东西娱乐，禁止用于商业用途！转载请注明微信公众号：bigsai。项目            <a href="https://www.cnblogs.com/bigsai/p/12107143.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2019-12-27 14:32
+bigsai
+<span class="post-view-count">阅读(477)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(2)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12107143" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/bigsai/archive/2019/10/05.html">2019年10月5日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/bigsai/p/11624354.html">
+    利用python爬虫关键词批量下载高清大图
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：前言 在上一篇写文章没高质量配图？python爬虫绕过限制一键搜索下载图虫创意图片！中，我们在未登录的情况下实现了图虫创意无水印高清小图的批量下载。虽然小图能够在一些移动端可能展示的还行，但是放到pc端展示图片太小效果真的是很一般！建议阅读本文查看上一篇文章，在具体实现不做太多介绍，只讲个分析思路。            <a href="https://www.cnblogs.com/bigsai/p/11624354.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2019-10-05 12:13
+bigsai
+<span class="post-view-count">阅读(975)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11624354" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/bigsai/archive/2019/09/28.html">2019年9月28日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/bigsai/p/11602514.html">
+    多源最短路径算法—Floyd算法
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：前言 在 图论 中，在寻路最短路径中除了 算法以外，还有 算法也是非常经典，然而两种算法还是 的，Floyd主要计算多源最短路径。 在单源正权值最短路径 ，我们会用 &quot;Dijkstra算法&quot; 来求最短路径，并且算法的思想很简单—— 贪心算法 :每次确定最短路径的一个点然后维护(更新)这个点周围点的距            <a href="https://www.cnblogs.com/bigsai/p/11602514.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2019-09-28 12:15
+bigsai
+<span class="post-view-count">阅读(1691)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11602514" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/bigsai/archive/2019/09/23.html">2019年9月23日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/bigsai/p/11571715.html">
+    我用数据结构花了一夜给女朋友写了个h5走迷宫小游戏
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：@ &quot;TOC&quot; 先看效果图(在线电脑尝试地址 &quot;http://biggsai.com/maze.html&quot; )： 起因 又到深夜了，我按照以往在 写着数据结构！这占用了我大量的时间！我的超越妹妹严重缺乏陪伴而 怨气满满！ 超越妹妹时常埋怨，认为数据结构这么抽象难懂的东西没啥作用，常会问道：天天写这玩            <a href="https://www.cnblogs.com/bigsai/p/11571715.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2019-09-23 12:42
+bigsai
+<span class="post-view-count">阅读(4643)</span><text> </text>
+<span class="post-comment-count">评论(30)</span><text> </text>
+<span class="post-digg-count">推荐(21)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11571715" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+
+<div class="topicListFooter">
+    <div id="nav_next_page">
+        
+    <a href="https://www.cnblogs.com/bigsai/default.html?page=2">
+        下一页
+    </a>
+
+    </div>    
+</div>
+
+
+
+
+
+
+
+
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+			
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+<div id="sidebar_ad"></div>
+			<div id="blog-calendar" style="display:none"></div><script>loadBlogDefaultCalendar();</script>
+			
+			<div id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+			</div>
+			
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+		<!--done-->
+Copyright &copy; 2020 bigsai
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+
+
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+
+
+    <div id="page_end_html">
+        个人公众号交流：bigsai
+<img width="8%" height="8%">
+    </div>
+</body>
+</html>

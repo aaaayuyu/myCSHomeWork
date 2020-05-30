@@ -1,0 +1,10 @@
+D:\soft\腾讯QQ\消息记录等文档\1135802188\FileRecv\C#第十次作业\Crawler\Crawler\bin\Debug\Crawler.exe.config
+D:\soft\腾讯QQ\消息记录等文档\1135802188\FileRecv\C#第十次作业\Crawler\Crawler\bin\Debug\Crawler.exe
+D:\soft\腾讯QQ\消息记录等文档\1135802188\FileRecv\C#第十次作业\Crawler\Crawler\bin\Debug\Crawler.pdb
+D:\soft\腾讯QQ\消息记录等文档\1135802188\FileRecv\C#第十次作业\Crawler\Crawler\obj\Debug\Crawler.csprojAssemblyReference.cache
+D:\soft\腾讯QQ\消息记录等文档\1135802188\FileRecv\C#第十次作业\Crawler\Crawler\obj\Debug\CrawlerForm.Form1.resources
+D:\soft\腾讯QQ\消息记录等文档\1135802188\FileRecv\C#第十次作业\Crawler\Crawler\obj\Debug\Crawler.Properties.Resources.resources
+D:\soft\腾讯QQ\消息记录等文档\1135802188\FileRecv\C#第十次作业\Crawler\Crawler\obj\Debug\Crawler.csproj.GenerateResource.cache
+D:\soft\腾讯QQ\消息记录等文档\1135802188\FileRecv\C#第十次作业\Crawler\Crawler\obj\Debug\Crawler.csproj.CoreCompileInputs.cache
+D:\soft\腾讯QQ\消息记录等文档\1135802188\FileRecv\C#第十次作业\Crawler\Crawler\obj\Debug\Crawler.exe
+D:\soft\腾讯QQ\消息记录等文档\1135802188\FileRecv\C#第十次作业\Crawler\Crawler\obj\Debug\Crawler.pdb

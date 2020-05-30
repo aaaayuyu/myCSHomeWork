@@ -1,0 +1,521 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>PowerShell免费软件 - 博客园</title>
+    <link id="favicon" rel="shortcut icon" href="//common.cnblogs.com/favicon.ico?v=20200522" type="image/x-icon" />
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=KCO3_f2W_TC__-jZ7phSnmoFkQuWMJH2yAgA16eE3eY" />
+    <link id="MainCss" rel="stylesheet" href="/skins/gertrude/bundle-gertrude-green.min.css?v=FtxCMvJBiKUbZFSK5ICR7za98YmpNwzkZ_l1SGnda6E" />
+    
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/gertrude/bundle-gertrude-green-mobile.min.css?v=ADiCwO2hOTdd5yYidcx7eob7ix2VJI4o_TXjEycTHjs" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/piapia/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/piapia/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/piapia/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=6bwfCY2e02dLOXNW99G2BHZkYFmw9QyYTWeJ-W-sudo"></script>
+    <script>
+        var currentBlogId = 130574;
+        var currentBlogApp = 'piapia';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'gertrude-green';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    
+    
+<h1><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/piapia/">PowerShell免费软件</a>
+</h1>
+<p id="tagline">
+
+</p>
+
+
+<div id="main">
+	
+
+
+
+
+		
+<p class="date">
+	<a href="https://www.cnblogs.com/piapia/archive/2020/05/30.html"></a>
+	2020年5月30日		  
+</p>
+
+
+		<div class="post">
+			<h2>
+
+<a class="postTitle2" href="https://www.cnblogs.com/piapia/p/12991773.html">
+    如何看待 HashiCorp 官宣，不允许中国境内使用其旗下产品？
+</a>
+</h2>
+			
+			
+
+    <div class="c_b_p_desc">
+摘要：HashiCorp 官方宣布，不允许中国境内使用、部署和安装该企业旗下的企业版产品和软件。该公司比较知名的产品有：Terraform、Consul、Vagrant 等。https://www.hashicorp.com/terms-of-evaluation。我这篇文章提供了代替方案。            <a href="https://www.cnblogs.com/piapia/p/12991773.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			
+			<p class="postfoot">		
+				posted @ 2020-05-30 12:49
+PowerShell免费软件
+<span class="post-view-count">阅读(85)</span><text> </text>
+<span class="post-comment-count">评论(1)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12991773" rel="nofollow">
+    编辑
+</a>
+
+			</p>
+		</div>
+
+
+
+		
+<p class="date">
+	<a href="https://www.cnblogs.com/piapia/archive/2020/03/02.html"></a>
+	2020年3月2日		  
+</p>
+
+
+		<div class="post">
+			<h2>
+
+<a class="postTitle2" href="https://www.cnblogs.com/piapia/p/12395923.html">
+    powershell加KeePass实现，加密服务器密码
+</a>
+</h2>
+			
+			
+
+    <div class="c_b_p_desc">
+摘要：powershell自己，已经实现加密密码保存，读取。功能全自动。
+但是捏，【全自动加密、解密】基本等于【明文保存密码】。
+而用一个【每次运行，都必须手动输入的主密码】，管理n个子密码，才是最好的对称加密方法。            <a href="https://www.cnblogs.com/piapia/p/12395923.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			
+			<p class="postfoot">		
+				posted @ 2020-03-02 15:37
+PowerShell免费软件
+<span class="post-view-count">阅读(78)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12395923" rel="nofollow">
+    编辑
+</a>
+
+			</p>
+		</div>
+
+
+
+		
+<p class="date">
+	<a href="https://www.cnblogs.com/piapia/archive/2020/02/26.html"></a>
+	2020年2月26日		  
+</p>
+
+
+		<div class="post">
+			<h2>
+
+<a class="postTitle2" href="https://www.cnblogs.com/piapia/p/12367577.html">
+    《卡死你3000》之表情包斗图乐
+</a>
+</h2>
+			
+			
+
+    <div class="c_b_p_desc">
+摘要：《卡死你3000》是一款开源+免费+比ansible好用10倍的devops自动批量运维系统。
+『表情包斗图乐』是基于Windows Terminal的自动更换背景图功能，支持gif动图，在不久的将来，它必将引领命令行斗图风尚！            <a href="https://www.cnblogs.com/piapia/p/12367577.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			
+			<p class="postfoot">		
+				posted @ 2020-02-26 16:32
+PowerShell免费软件
+<span class="post-view-count">阅读(144)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12367577" rel="nofollow">
+    编辑
+</a>
+
+			</p>
+		</div>
+
+
+
+		
+<p class="date">
+	<a href="https://www.cnblogs.com/piapia/archive/2019/11/20.html"></a>
+	2019年11月20日		  
+</p>
+
+
+		<div class="post">
+			<h2>
+
+<a class="postTitle2" href="https://www.cnblogs.com/piapia/p/11897713.html">
+    走进winrm ---powershell远程连接的4个安全级别，详解
+</a>
+</h2>
+			
+			
+
+    <div class="c_b_p_desc">
+摘要：讲解如何给winrm启用https，如何配置证书。winrm服务器，winrm客户机的做法，附脚本代码。            <a href="https://www.cnblogs.com/piapia/p/11897713.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			
+			<p class="postfoot">		
+				posted @ 2019-11-20 14:55
+PowerShell免费软件
+<span class="post-view-count">阅读(702)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11897713" rel="nofollow">
+    编辑
+</a>
+
+			</p>
+		</div>
+
+
+
+		
+<p class="date">
+	<a href="https://www.cnblogs.com/piapia/archive/2019/09/20.html"></a>
+	2019年9月20日		  
+</p>
+
+
+		<div class="post">
+			<h2>
+
+<a class="postTitle2" href="https://www.cnblogs.com/piapia/p/11556402.html">
+    尽解powershell的workflow
+</a>
+</h2>
+			
+			
+
+    <div class="c_b_p_desc">
+摘要：本文详细重点讲解如何做到powershell workflow的两个重点：1如何突破powershell workflow 5进程数限制，2如何解决并发写入txt文件问题。            <a href="https://www.cnblogs.com/piapia/p/11556402.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			
+			<p class="postfoot">		
+				posted @ 2019-09-20 12:44
+PowerShell免费软件
+<span class="post-view-count">阅读(303)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11556402" rel="nofollow">
+    编辑
+</a>
+
+			</p>
+		</div>
+
+
+
+		
+<p class="date">
+	<a href="https://www.cnblogs.com/piapia/archive/2019/09/11.html"></a>
+	2019年9月11日		  
+</p>
+
+
+		<div class="post">
+			<h2>
+
+<a class="postTitle2" href="https://www.cnblogs.com/piapia/p/11505937.html">
+    powershell6,7新特性
+</a>
+</h2>
+			
+			
+
+    <div class="c_b_p_desc">
+摘要：我原创整理的powershell 6，7的新特性。基本可以说网上唯一。
+1每个特性都注明了版本号，从这个版本开始，才支持这个特性。
+2欢迎挑毛病，让我更完善帖子。
+3大都是ps6的新特性。ps7刚刚开始开发，新特性也只有一点点。            <a href="https://www.cnblogs.com/piapia/p/11505937.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			
+			<p class="postfoot">		
+				posted @ 2019-09-11 14:24
+PowerShell免费软件
+<span class="post-view-count">阅读(806)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11505937" rel="nofollow">
+    编辑
+</a>
+
+			</p>
+		</div>
+
+
+
+		
+<p class="date">
+	<a href="https://www.cnblogs.com/piapia/archive/2019/08/15.html"></a>
+	2019年8月15日		  
+</p>
+
+
+		<div class="post">
+			<h2>
+
+<a class="postTitle2" href="https://www.cnblogs.com/piapia/p/11340636.html">
+    powershell玩转iis网站服务器
+</a>
+</h2>
+			
+			
+
+    <div class="c_b_p_desc">
+摘要：powershell管理iis的命令，例子。笔记未整理，勿喷。            <a href="https://www.cnblogs.com/piapia/p/11340636.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			
+			<p class="postfoot">		
+				posted @ 2019-08-15 10:42
+PowerShell免费软件
+<span class="post-view-count">阅读(548)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(2)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11340636" rel="nofollow">
+    编辑
+</a>
+
+			</p>
+		</div>
+
+
+
+		
+<p class="date">
+	<a href="https://www.cnblogs.com/piapia/archive/2019/08/14.html"></a>
+	2019年8月14日		  
+</p>
+
+
+		<div class="post">
+			<h2>
+
+<a class="postTitle2" href="https://www.cnblogs.com/piapia/p/11351260.html">
+    Windows Terminal (Preview)治好了cmd,powershell的癌症
+</a>
+</h2>
+			
+			
+
+    <div class="c_b_p_desc">
+摘要：n年前，我想开发一款powershell麻将游戏，但是发现命令行无法显示麻将牌这种特殊符号。随着时间的推移，随着git的普及，win命令行（cmd，powershell）无法对新unicode字符渲染问题越来越严重了。这才引起了ms的重视，也就有了Windows Terminal            <a href="https://www.cnblogs.com/piapia/p/11351260.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			
+			<p class="postfoot">		
+				posted @ 2019-08-14 12:48
+PowerShell免费软件
+<span class="post-view-count">阅读(926)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11351260" rel="nofollow">
+    编辑
+</a>
+
+			</p>
+		</div>
+
+
+
+		
+<p class="date">
+	<a href="https://www.cnblogs.com/piapia/archive/2019/08/12.html"></a>
+	2019年8月12日		  
+</p>
+
+
+		<div class="post">
+			<h2>
+
+<a class="postTitle2" href="https://www.cnblogs.com/piapia/p/11340200.html">
+    博客园“NET Core 版博客系统”的运维浅见
+</a>
+</h2>
+			
+			
+
+    <div class="c_b_p_desc">
+摘要：探讨博客园“NET Core 版博客系统”的部署方案。我的一种看法，欢迎探讨。介绍了无图形版win2019，Windows Admin Center，powershell部署。net core程序。            <a href="https://www.cnblogs.com/piapia/p/11340200.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			
+			<p class="postfoot">		
+				posted @ 2019-08-12 15:04
+PowerShell免费软件
+<span class="post-view-count">阅读(1060)</span><text> </text>
+<span class="post-comment-count">评论(10)</span><text> </text>
+<span class="post-digg-count">推荐(3)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11340200" rel="nofollow">
+    编辑
+</a>
+
+			</p>
+		</div>
+
+
+
+		
+<p class="date">
+	<a href="https://www.cnblogs.com/piapia/archive/2019/07/12.html"></a>
+	2019年7月12日		  
+</p>
+
+
+		<div class="post">
+			<h2>
+
+<a class="postTitle2" href="https://www.cnblogs.com/piapia/p/11175865.html">
+    此贴告诉你：为啥shell脚本人，不建议学python
+</a>
+</h2>
+			
+			
+
+    <div class="c_b_p_desc">
+摘要：通过对比powershell，和python。条目依次说明python在shell脚本场合的缺点。            <a href="https://www.cnblogs.com/piapia/p/11175865.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			
+			<p class="postfoot">		
+				posted @ 2019-07-12 14:23
+PowerShell免费软件
+<span class="post-view-count">阅读(4449)</span><text> </text>
+<span class="post-comment-count">评论(1)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11175865" rel="nofollow">
+    编辑
+</a>
+
+			</p>
+		</div>
+
+
+
+
+<div class="topicListFooter">
+    <div id="nav_next_page">
+        
+    <a href="https://www.cnblogs.com/piapia/default.html?page=2">
+        下一页
+    </a>
+
+    </div>    
+</div>
+
+
+
+
+
+
+
+
+</div>
+<div id="rightmenu">
+	
+		<div id="blog-calendar" style="display:none"></div><script>loadBlogDefaultCalendar();</script>
+		
+<h3>导航</h3>
+<ul>
+			<li><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+			<li>
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/piapia/">
+首页</a>
+</li>
+			<li>
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+			<li>
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/PowerShell%E5%85%8D%E8%B4%B9%E8%BD%AF%E4%BB%B6">
+联系</a></li>
+			<li>
+<a id="blog_nav_rss" class="menu" href="javascript:void(0)" data-rss="https://www.cnblogs.com/piapia/rss/">
+订阅</a>
+<a id="blog_nav_rss_image" href="https://www.cnblogs.com/piapia/rss/">
+    <img src="/skins/gertrude-green/images/xml.gif" alt="订阅" />
+</a></li>
+			<li>
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+</ul>
+
+
+		<h3>统计</h3>
+	<ul>
+		<li>随笔 - 
+64</li>
+		<li>文章 - 
+0</li>
+		<li>评论 - 
+159</li>
+		<li>引用 - 
+0</li>
+</ul>
+
+
+		
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+<div id="sidebar_ad"></div>
+		<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+	
+</div>			
+<p id="footer">
+	Powered by: 
+	<br />
+	
+	<a href="https://www.cnblogs.com/" id="footer_site_link">博客园</a>
+	<br />
+	Copyright &copy; 2020 PowerShell免费软件
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+</p>
+
+
+	
+
+
+    
+</body>
+</html>

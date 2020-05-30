@@ -1,0 +1,554 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>阿星Plus - 博客园</title>
+    <link id="favicon" rel="shortcut icon" href="//common.cnblogs.com/favicon.ico?v=20200522" type="image/x-icon" />
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=KCO3_f2W_TC__-jZ7phSnmoFkQuWMJH2yAgA16eE3eY" />
+    
+    <link type="text/css" rel="stylesheet" href="https://www.cnblogs.com/meowv/custom.css?v=kRG3NHMWj7tGxPARFq8LMdMtbig=" />
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/SimpleMemory/bundle-SimpleMemory-mobile.min.css" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/meowv/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/meowv/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/meowv/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=6bwfCY2e02dLOXNW99G2BHZkYFmw9QyYTWeJ-W-sudo"></script>
+    <script>
+        var currentBlogId = 324339;
+        var currentBlogApp = 'meowv';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'SimpleMemory';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    
+    
+<!--done-->
+<div id="home">
+<div id="header">
+	<div id="blogTitle">
+        <a id="lnkBlogLogo" href="https://www.cnblogs.com/meowv/"><img id="blogLogo" src="/skins/custom/images/logo.gif" alt="返回主页" /></a>		
+		
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/meowv/">阿星Plus</a>
+</h1>
+<h2>
+生命不息，奋斗不止
+</h2>
+
+
+
+
+		
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+	<div id="navigator">
+		
+<ul id="navList">
+<li>
+</li>
+<li>
+
+</li>
+<li>
+
+
+</li>
+<li>
+</li>
+<li>
+
+<!--<partial name="./Shared/_XmlLink.cshtml" model="Model" /></li>--></li>
+<li>
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+</ul>
+
+
+		<div class="blogStats">
+			
+			<span id="stats_post_count">随笔 - 
+63&nbsp; </span>
+<span id="stats_article_count">文章 - 
+0&nbsp; </span>
+<span id="stats-comment_count">评论 - 
+170</span>
+
+			
+		</div><!--end: blogStats -->
+	</div><!--end: navigator 博客导航栏 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+		
+<!--done-->
+
+
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/meowv/archive/2020/05/15.html">2020年5月15日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/meowv/p/12895262.html">
+[置顶]    基于 abp vNext 和 .NET Core 开发博客项目 - 前言
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：项目介绍 此个人博客项目底层基于 ABP Framework (不完全依赖)搭建项目 和免费开源跨平台的 .NET Core 3.1 开发，可作为 .NET Core 入门项目进行学习，支持各种主流数据库(SqlServer、MySQL、PostgreSql、Sqlite)接入，接口遵循 RESTf            <a href="https://www.cnblogs.com/meowv/p/12895262.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-05-15 15:33
+阿星Plus
+<span class="post-view-count">阅读(698)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(5)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12895262" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/meowv/archive/2020/05/30.html">2020年5月30日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/meowv/p/12974439.html">
+    基于 abp vNext 和 .NET Core 开发博客项目 - 定时任务最佳实战（二）
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：上一篇(https://www.cnblogs.com/meowv/p/12971041.html)使用HtmlAgilityPack抓取壁纸数据成功将图片存入数据库，本篇继续来完成一个全网各大平台的热点新闻数据的抓取。 同样的，可以先预览一下我个人博客中的成品：https://meowv.com/            <a href="https://www.cnblogs.com/meowv/p/12974439.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-05-30 11:12
+阿星Plus
+<span class="post-view-count">阅读(69)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(1)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12974439" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/meowv/archive/2020/05/29.html">2020年5月29日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/meowv/p/12971041.html">
+    基于 abp vNext 和 .NET Core 开发博客项目 - 定时任务最佳实战（一）
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：上一篇(https://www.cnblogs.com/meowv/p/12966092.html)文章使用AutoMapper来处理对象与对象之间的映射关系，本篇主要围绕定时任务和数据抓取相关的知识点并结合实际应用，在定时任务中循环处理爬虫任务抓取数据。 开始之前可以删掉之前测试用的几个Hello            <a href="https://www.cnblogs.com/meowv/p/12971041.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-05-29 08:49
+阿星Plus
+<span class="post-view-count">阅读(589)</span><text> </text>
+<span class="post-comment-count">评论(10)</span><text> </text>
+<span class="post-digg-count">推荐(5)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12971041" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/meowv/archive/2020/05/28.html">2020年5月28日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/meowv/p/12966092.html">
+    基于 abp vNext 和 .NET Core 开发博客项目 - 用AutoMapper搞定对象映射
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：上一篇文章(https://www.cnblogs.com/meowv/p/12961014.html)集成了定时任务处理框架Hangfire，完成了一个简单的定时任务处理解决方案。 本篇紧接着来玩一下AutoMapper，AutoMapper可以很方便的搞定我们对象到对象之间的映射关系处理，同时a            <a href="https://www.cnblogs.com/meowv/p/12966092.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-05-28 08:49
+阿星Plus
+<span class="post-view-count">阅读(426)</span><text> </text>
+<span class="post-comment-count">评论(2)</span><text> </text>
+<span class="post-digg-count">推荐(4)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12966092" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/meowv/archive/2020/05/27.html">2020年5月27日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/meowv/p/12961014.html">
+    基于 abp vNext 和 .NET Core 开发博客项目 - 集成Hangfire实现定时任务处理
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：上一篇文章(https://www.cnblogs.com/meowv/p/12956696.html)成功使用了Redis缓存数据，大大提高博客的响应性能。 接下来，将完成一个任务调度中心，关于定时任务有多种处理方式，如果你的需求比较简单，比如就是单纯的过多少时间循环执行某个操作，可以直接使用.n            <a href="https://www.cnblogs.com/meowv/p/12961014.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-05-27 08:54
+阿星Plus
+<span class="post-view-count">阅读(424)</span><text> </text>
+<span class="post-comment-count">评论(18)</span><text> </text>
+<span class="post-digg-count">推荐(6)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12961014" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/meowv/archive/2020/05/26.html">2020年5月26日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/meowv/p/12956696.html">
+    基于 abp vNext 和 .NET Core 开发博客项目 - 使用Redis缓存数据
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：上一篇文章(https://www.cnblogs.com/meowv/p/12943699.html)完成了项目的全局异常处理和日志记录。 在日志记录中使用的静态方法有人指出写法不是很优雅，遂优化一下上一篇中日志记录的方法，具体操作如下： 在.ToolKits层中新建扩展方法Log4NetExte            <a href="https://www.cnblogs.com/meowv/p/12956696.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-05-26 08:51
+阿星Plus
+<span class="post-view-count">阅读(741)</span><text> </text>
+<span class="post-comment-count">评论(2)</span><text> </text>
+<span class="post-digg-count">推荐(8)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12956696" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/meowv/archive/2020/05/25.html">2020年5月25日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/meowv/p/12943699.html">
+    基于 abp vNext 和 .NET Core 开发博客项目 - 异常处理和日志记录
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：在开始之前，我们实现一个之前的遗留问题，这个问题是有人在GitHub Issues(https://github.com/Meowv/Blog/issues/8)上提出来的，就是当我们对Swagger进行分组，实现 接口添加了文档描述信息后，切换分组时会显示不属于当前分组的Tag。 经过研究和分析发            <a href="https://www.cnblogs.com/meowv/p/12943699.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-05-25 08:48
+阿星Plus
+<span class="post-view-count">阅读(559)</span><text> </text>
+<span class="post-comment-count">评论(5)</span><text> </text>
+<span class="post-digg-count">推荐(6)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12943699" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/meowv/archive/2020/05/23.html">2020年5月23日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/meowv/p/12935693.html">
+    基于 abp vNext 和 .NET Core 开发博客项目 - 接入GitHub，用JWT保护你的API
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：上一篇文章(https://www.cnblogs.com/meowv/p/12924859.html)再次把Swagger的使用进行了讲解，完成了对Swagger的分组、描述和开启小绿锁以进行身份的认证授权，那么本篇就来说说身份认证授权。 开始之前先搞清楚几个概念，请注意认证与授权是不同的意思，简            <a href="https://www.cnblogs.com/meowv/p/12935693.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-05-23 10:04
+阿星Plus
+<span class="post-view-count">阅读(1117)</span><text> </text>
+<span class="post-comment-count">评论(6)</span><text> </text>
+<span class="post-digg-count">推荐(15)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12935693" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/meowv/archive/2020/05/22.html">2020年5月22日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/meowv/p/12924859.html">
+    基于 abp vNext 和 .NET Core 开发博客项目 - 再说Swagger，分组、描述、小绿锁
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：在开始本篇正文之前，解决一个 @疯疯过 指出的错误，再次感谢指正。 步骤如下： 删掉 层中的项目引用，添加nuget依赖包 ，可以使用命令： 在 层中引用项目 ，在模块类中添加依赖 将 层中的引用项目 改成 。 上一篇文章(https://www.cnblogs.com/meowv/p/129244            <a href="https://www.cnblogs.com/meowv/p/12924859.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-05-22 09:01
+阿星Plus
+<span class="post-view-count">阅读(1512)</span><text> </text>
+<span class="post-comment-count">评论(11)</span><text> </text>
+<span class="post-digg-count">推荐(19)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12924859" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/meowv/archive/2020/05/21.html">2020年5月21日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/meowv/p/12924409.html">
+    基于 abp vNext 和 .NET Core 开发博客项目 - 统一规范API，包装返回模型
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：上一篇文章(https://www.cnblogs.com/meowv/p/12916613.html)使用自定义仓储完成了简单的增删改查案例，有心的同学可以看出，我们的返回参数一塌糊涂，显得很不友好。 在实际开发过程中，每个公司可能不尽相同，但都大同小异，我们的返回数据都是包裹在一个公共的模型下面            <a href="https://www.cnblogs.com/meowv/p/12924409.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-05-21 11:00
+阿星Plus
+<span class="post-view-count">阅读(989)</span><text> </text>
+<span class="post-comment-count">评论(14)</span><text> </text>
+<span class="post-digg-count">推荐(9)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12924409" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/meowv/archive/2020/05/20.html">2020年5月20日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/meowv/p/12916613.html">
+    基于 abp vNext 和 .NET Core 开发博客项目 - 自定义仓储之增删改查
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：上一篇文章(https://www.cnblogs.com/meowv/p/12913676.html)我们用Code First的方式创建了博客所需的实体类，生成了数据库表，完成了对EF Core的封装。 本篇说一下自定义仓储的实现方式，其实在abp框架中已经默认给我们实现了默认的通用(泛型)仓储            <a href="https://www.cnblogs.com/meowv/p/12916613.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-05-20 13:06
+阿星Plus
+<span class="post-view-count">阅读(1386)</span><text> </text>
+<span class="post-comment-count">评论(16)</span><text> </text>
+<span class="post-digg-count">推荐(14)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12916613" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+
+<div class="topicListFooter">
+    <div id="nav_next_page">
+        
+    <a href="https://www.cnblogs.com/meowv/default.html?page=2">
+        下一页
+    </a>
+
+    </div>    
+</div>
+
+
+
+
+
+
+
+
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+			
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+<div id="sidebar_ad"></div>
+			<div id="blog-calendar" style="display:none"></div><script>loadBlogDefaultCalendar();</script>
+			
+			<div id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+			</div>
+			
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+		<!--done-->
+Copyright &copy; 2020 阿星Plus
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+
+
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+
+
+    
+</body>
+</html>

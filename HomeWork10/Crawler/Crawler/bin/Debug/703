@@ -1,0 +1,661 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="referrer" content="always" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>其他分类 - 网站分类 - 博客园</title>
+    <link rel="shortcut icon" href="//common.cnblogs.com/favicon.ico?v=20200522" type="image/x-icon" />
+    <link rel="Stylesheet" type="text/css" href="/css/aggsite.min.css?v=XVK9pBwACFM32BSjHQ3T_N9NQGXjkUDwYVLWn2h19Dg" />
+        <link id="RSSLink" title="RSS" type="application/rss+xml" rel="alternate" href="http://feed.cnblogs.com/blog/sitecateogry/4/rss" />
+    <script src="//common.cnblogs.com/script/jquery.js" type="text/javascript"></script>
+    <script src="/js/aggsite.min.js?v=SMfb3cvJ_BVQu17ffdyLH0AsFTOFX87b871AzEvWXNo"></script>
+    <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+    <script>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+    </script>
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineSlot('/1090369/A1', [468, 60], 'div-gpt-ad-1547816814884-0').addService(googletag.pubads());
+            googletag.defineSlot('/1090369/B1', [300, 250], 'div-gpt-ad-1546331539224-0').addService(googletag.pubads());
+            googletag.defineSlot('/1090369/B2', [300, 250], 'div-gpt-ad-1539007469525-0').addService(googletag.pubads());
+            googletag.defineSlot('/1090369/B3', [300, 250], 'div-gpt-ad-1546331252242-0').addService(googletag.pubads());
+            googletag.defineSlot('/1090369/B4', [300, 250], 'div-gpt-ad-1546331385104-0').addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+
+        /**/</script>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="hd_info">
+            <div id="cnts">
+                <div id="site_nav_top">代码改变世界</div>
+                <div id="login_area"><span id="span_userinfo"></span></div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div id="header">
+            <p class="h_r_3"></p><p class="h_r_2"></p><p class="h_r_1"></p>
+            <div id="header_block">
+                <div id="logo">
+                    <h1>
+                        <a href="https://www.cnblogs.com/" title="开发者的网上家园"><img src="/images/logo_small.gif" alt="博客园Logo" width="142" height="55" /></a>
+                    </h1>
+                </div>
+
+                <div class="clear"></div>
+            </div>
+            <p class="h_r_1"></p><p class="h_r_2"></p><p class="h_r_3"></p>
+        </div>
+        <div id="nav_menu"><a href="https://home.cnblogs.com/">园子</a><a href="https://news.cnblogs.com">新闻</a><a href="https://q.cnblogs.com/">博问</a><a href="https://ing.cnblogs.com/">闪存</a><a href="https://group.cnblogs.com/">小组</a><a href="https://wz.cnblogs.com/">收藏</a><a href="https://job.cnblogs.com/">招聘</a><a href="https://edu.cnblogs.com/">班级</a><a href="http://zzk.cnblogs.com/">找找看</a></div>
+        <div id="main">
+            <div class="post_nav_block_wrapper">
+                <ul class="post_nav_block">
+                        <li><a href="/" id="tabnav_" class="" title="">首页</a></li>
+                        <li><a href="/cate/4/" id="tabnav_cate4" class="current_nav" title="">其他分类</a></li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+            <div class="rss_link" id="rss_block">
+<span id="posts_refresh_tips"></span><a id="posts_refresh" href="#" class="refresh" title="刷新博文列表" onclick="aggSite.loadCategoryPostList();return false">刷新</a><a href="http://feed.cnblogs.com/blog/sitecateogry/4/rss"><img src="//common.cnblogs.com/images/icon_rss.gif" alt="点击订阅" style="position:relative;top:2px;" title="订阅博客园文章" /></a>            </div>
+                <div id="headline_block" class="headline"><ul><li class="editor_pick"><a href="https://www.cnblogs.com/coco1s/p/12980682.html" id="editor_pick_lnk" target="_blank">【编辑推荐】巧用 display: contents 增强页面语义<span id="editor_pick_count"></span></a> <a href="/aggsite/headline" title="查看更多编辑推荐" class="right_more">»</a></li><li><a href="https://www.cnblogs.com/guangzan/p/12979619.html" target="_blank" title="阅读181, 评论2, 推荐5">[最多推荐]构建一个简约博皮的过程(2/181)</a> <a href="/aggsite/topdigged24h" title="查看24小时推荐排行" class="right_more">»</a></li><li><a href="https://news.cnblogs.com/n/663027/" target="_blank" title="阅读567, 评论0, 推荐2">[新闻头条]专为「神盾局」打造的软体机器人：通用电气出品，能挖隧道，可军用(0/567)</a> <a href="https://news.cnblogs.com/" title="查看更多新闻" class="right_more">»</a></li><li><a href="https://news.cnblogs.com/n/662991/" target="_blank" title="阅读1623, 评论1, 推荐8">[推荐新闻]基础软件+开源，为什么是现在？(1/1623)</a> <a href="https://news.cnblogs.com/n/recommend" title="查看更多推荐新闻" class="right_more">»</a></li></ul></div>
+
+            <div id="pager_top" style="display:none"></div>
+            <div id="post_list_tips" class="hide"></div>
+            
+            <div id="post_list">
+                <div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('XXJX',12992096,606220,1)"> 
+	<span class="diggnum" id="digg_count_12992096">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12992096" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/XXJX/archive/2020/05/30/12992096.html" target="_blank">《新下级学》附——半透明奖金制的有效性证明</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/XXJX/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/2035139/20200512090205.png" alt=""/></a>    附 半透明奖金制的有效性证明 本证明的目的是：证明半透明奖金制能基本消除短期暗箱操作。 根据半透明奖金制，下级A的奖金是A = m * C , 其中 A 是最终的奖金数，m 是系数， C是基数。基数 C 是公开的，系数 m 只有下级 A 自己知道。同样，下级B的奖金是B = n * C , 其中 B ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/XXJX/" class="lightblue">新下级学</a> 
+    发布于 2020-05-30 13:06 
+    <span class="article_comment"><a href="https://www.cnblogs.com/XXJX/archive/2020/05/30/12992096.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/XXJX/archive/2020/05/30/12992096.html" class="gray">阅读(8)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('XXJX',12992092,606220,1)"> 
+	<span class="diggnum" id="digg_count_12992092">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12992092" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/XXJX/archive/2020/05/30/12992092.html" target="_blank">《新下级学》第十章——结语</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/XXJX/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/2035139/20200512090205.png" alt=""/></a>    第十章 结语 肯定有人骂我诲淫诲盗、煽动宵小、败坏风气。骂我的人越多，越是大老板、“职场精英”，我越高兴。说明我把他们的伎俩大白于天下了。魔术师最怕观众扯下罩布，蟑螂最怕人翻开它藏身的碎砖烂瓦。魔术师需要罩布，因为他靠销售神秘感谋生，蟑螂躲在碎砖烂瓦下面，却是想趁机出来害人。 很多“成功人士”向社会 ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/XXJX/" class="lightblue">新下级学</a> 
+    发布于 2020-05-30 13:03 
+    <span class="article_comment"><a href="https://www.cnblogs.com/XXJX/archive/2020/05/30/12992092.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/XXJX/archive/2020/05/30/12992092.html" class="gray">阅读(8)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('XXJX',12992091,606220,1)"> 
+	<span class="diggnum" id="digg_count_12992091">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12992091" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/XXJX/archive/2020/05/30/12992091.html" target="_blank">《新下级学》第九章第二节——上级十劝</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/XXJX/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/2035139/20200512090205.png" alt=""/></a>    9.2上级十劝 1. 避免甩锅式口头禅。 “你懂了吧？”“你明白吗？”“你懂我意思吧？”这样的口头惮，不但粗鲁无礼，而且是把锅甩给下级。如果下级点头，那就是下级全责了。如果改成“我说清楚了吗？”，显得客气了，但还是甩锅。 2. 采用半透明奖金制。 前面8.5节讨论了信息不透明所引起的奖金失效。对此有 ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/XXJX/" class="lightblue">新下级学</a> 
+    发布于 2020-05-30 13:01 
+    <span class="article_comment"><a href="https://www.cnblogs.com/XXJX/archive/2020/05/30/12992091.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/XXJX/archive/2020/05/30/12992091.html" class="gray">阅读(6)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('XXJX',12992082,606220,1)"> 
+	<span class="diggnum" id="digg_count_12992082">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12992082" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/XXJX/archive/2020/05/30/12992082.html" target="_blank">《新下级学》第九章第一节下——下级十诫</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/XXJX/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/2035139/20200512090205.png" alt=""/></a>    十诫是相互勾连的，比如只有做到第1诫“学法”，才可能在第2诫中发现规则中违法、无效的部分，也才能更好地做到第6诫“办事合规”。第4诫“不揣摩上级心思”、第5诫“留下证据”和最后两诫“D日技巧”“反弹”是同一内核的不同体现，不敢保护自己的奴隶绝不敢执行这四诫。本节的最后，结合3个例子讲解十诫。 第一个 ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/XXJX/" class="lightblue">新下级学</a> 
+    发布于 2020-05-30 12:57 
+    <span class="article_comment"><a href="https://www.cnblogs.com/XXJX/archive/2020/05/30/12992082.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/XXJX/archive/2020/05/30/12992082.html" class="gray">阅读(6)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('XXJX',12992036,606220,1)"> 
+	<span class="diggnum" id="digg_count_12992036">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12992036" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/XXJX/archive/2020/05/30/12992036.html" target="_blank">《新下级学》第九章序和第一节上——给下级和上级的建议</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/XXJX/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/2035139/20200512090205.png" alt=""/></a>    第九章 给下级和上级的建议 学以致用，知行合一。我们已经观察了下级生活的很多角落，研究了这么多，能得出哪些行动方面的建议呢？ 在给出具体建议之前，还是要再次明确新下级学的立场：下级为主，兼顾组织。 这里的建议不一定永远正确，读者还是要结合实际自己判断。 9.1下级十诫 1. 学法。 法律是终极底线， ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/XXJX/" class="lightblue">新下级学</a> 
+    发布于 2020-05-30 12:48 
+    <span class="article_comment"><a href="https://www.cnblogs.com/XXJX/archive/2020/05/30/12992036.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/XXJX/archive/2020/05/30/12992036.html" class="gray">阅读(5)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('XXJX',12991883,606220,1)"> 
+	<span class="diggnum" id="digg_count_12991883">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12991883" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/XXJX/archive/2020/05/30/12991883.html" target="_blank">《新下级学》第八章第十一节（本章完）——网状结构</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/XXJX/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/2035139/20200512090205.png" alt=""/></a>    8.11网状结构 随着经营模式日益复杂、组织结构日益灵活，已经有一部分传统的一上多下树状结构被网状结构替代。网状结构中，除了一上多下，也可以有一下多上，或者没有明显的上下级关系，三者混合存在。这种结构中的生态又如何呢？ 最正规的网状结构就是矩阵式管理，常见于大型公司。很多小公司虽然没有明确实行矩阵式 ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/XXJX/" class="lightblue">新下级学</a> 
+    发布于 2020-05-30 12:19 
+    <span class="article_comment"><a href="https://www.cnblogs.com/XXJX/archive/2020/05/30/12991883.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/XXJX/archive/2020/05/30/12991883.html" class="gray">阅读(7)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('XXJX',12991877,606220,1)"> 
+	<span class="diggnum" id="digg_count_12991877">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12991877" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/XXJX/archive/2020/05/30/12991877.html" target="_blank">《新下级学》第八章第十节——树状结构</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/XXJX/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/2035139/20200512090205.png" alt=""/></a>    8.10树状结构 树的下面是根，向上分出越来越多的枝杈。传统的组织结构就是倒立的树：大老板在最顶上，下面有几个上级，每个上级下面又有几个下级。​一个上级有多个下级，每个下级只有一个上级。此种结构里的生态是怎样的呢？ ​ 树状结构中，上级对下级的指挥关系明确，而平级间可能隐含有竞争关系。 本结构给上级 ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/XXJX/" class="lightblue">新下级学</a> 
+    发布于 2020-05-30 12:18 
+    <span class="article_comment"><a href="https://www.cnblogs.com/XXJX/archive/2020/05/30/12991877.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/XXJX/archive/2020/05/30/12991877.html" class="gray">阅读(7)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('XXJX',12991854,606220,1)"> 
+	<span class="diggnum" id="digg_count_12991854">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12991854" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/XXJX/archive/2020/05/30/12991854.html" target="_blank">《新下级学》第八章第八、九节——责任总论等</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/XXJX/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/2035139/20200512090205.png" alt=""/></a>    8.8责任总论 很多企业喜欢树立“企业精神”，隐形地加给员工以“遵章守纪”“一丝不苟”之类责任。但对下级来说，落到头上的具体任务才真正有意义。现实中，绝非“受领任务——执行——完成”这么简单，而是有几种复杂情况，值得研究。 ​8.9资源的制约和竞争 “旧时王谢堂前燕，飞入寻常百姓家。”这句诗用来形容 ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/XXJX/" class="lightblue">新下级学</a> 
+    发布于 2020-05-30 12:13 
+    <span class="article_comment"><a href="https://www.cnblogs.com/XXJX/archive/2020/05/30/12991854.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/XXJX/archive/2020/05/30/12991854.html" class="gray">阅读(6)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('XXJX',12991846,606220,1)"> 
+	<span class="diggnum" id="digg_count_12991846">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12991846" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/XXJX/archive/2020/05/30/12991846.html" target="_blank">《新下级学》第八章第五、六、七节——信息不透明导致奖金失效等</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/XXJX/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/2035139/20200512090205.png" alt=""/></a>    8.5信息不透明导致奖金失效 如上一章所述，奖惩也是重要的沟通频道。发奖金是为了让员工有干劲，但这里要揭示一个常见的现象：由于企业推行薪酬保密制度，反而使奖金的效力不那么大了。 薪酬保密已经很流行了，自有其道理，在此不细述。但由于这个制度，奖金也是保密的，员工失去了横向比较的基准，只能纵向比较，也就 ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/XXJX/" class="lightblue">新下级学</a> 
+    发布于 2020-05-30 12:10 
+    <span class="article_comment"><a href="https://www.cnblogs.com/XXJX/archive/2020/05/30/12991846.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/XXJX/archive/2020/05/30/12991846.html" class="gray">阅读(8)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('XXJX',12991835,606220,1)"> 
+	<span class="diggnum" id="digg_count_12991835">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12991835" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/XXJX/archive/2020/05/30/12991835.html" target="_blank">《新下级学》第八章第四节——不信任沟通</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/XXJX/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/2035139/20200512090205.png" alt=""/></a>    8.4不信任沟通 ​如果上下级经过一段时间沟通，反而建立了不信任关系，那也只能面对现实了。 ​所谓不信任关系，就是：不信任对方，并且知道自己的心态也暴露给对方了。 请注意该定义对双方的期望没有任何限制：也许双方仍然想建立信任关系，也许都不想，也许只有一方想，总之只要实际效果是不信任就是不信任关系。只 ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/XXJX/" class="lightblue">新下级学</a> 
+    发布于 2020-05-30 12:08 
+    <span class="article_comment"><a href="https://www.cnblogs.com/XXJX/archive/2020/05/30/12991835.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/XXJX/archive/2020/05/30/12991835.html" class="gray">阅读(7)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('XXJX',12991822,606220,1)"> 
+	<span class="diggnum" id="digg_count_12991822">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12991822" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/XXJX/archive/2020/05/30/12991822.html" target="_blank">《新下级学》第八章第三节——信任沟通</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/XXJX/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/2035139/20200512090205.png" alt=""/></a>    8.3信任沟通 ​虽然有碎片化、无界化，这样那样的问题，只要上下级一心做事，看淡得失，就总归能推进工作，还能产生信任感。经得起考验的信任感，就是信任关系了。什么考验？无非是有福同享，有难同当。 ​前面分析微观互动时，提到上级掠夺下级成果、拿下级当替罪羊。这些当然是可能发生的，但上级也可能确有贡献。比 ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/XXJX/" class="lightblue">新下级学</a> 
+    发布于 2020-05-30 12:04 
+    <span class="article_comment"><a href="https://www.cnblogs.com/XXJX/archive/2020/05/30/12991822.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/XXJX/archive/2020/05/30/12991822.html" class="gray">阅读(9)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('XXJX',12991817,606220,1)"> 
+	<span class="diggnum" id="digg_count_12991817">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12991817" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/XXJX/archive/2020/05/30/12991817.html" target="_blank">《新下级学》第八章第二节——沟通工具</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/XXJX/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/2035139/20200512090205.png" alt=""/></a>    8.2沟通工具 ​在具体讨论沟通工具之前，我先针对下级的需求，列出几条评价标准： 1、 ​准确性。即是否容易无意误解或成心曲解。这是沟通工具的基本要求。​ 2、 复现性，即是否容易存档并在事后查阅。 3、 ​实时性，即对方能否及时收到。注意这里强调对方收到，不是自己发出。​ 4、 保密性，能否避免无 ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/XXJX/" class="lightblue">新下级学</a> 
+    发布于 2020-05-30 12:03 
+    <span class="article_comment"><a href="https://www.cnblogs.com/XXJX/archive/2020/05/30/12991817.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/XXJX/archive/2020/05/30/12991817.html" class="gray">阅读(8)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('XXJX',12990798,606220,1)"> 
+	<span class="diggnum" id="digg_count_12990798">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12990798" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/XXJX/archive/2020/05/30/12990798.html" target="_blank">《新下级学》第八章序和第一节——宏观互动</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/XXJX/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/2035139/20200512090205.png" alt=""/></a>    第八章 宏观互动 本章研究宏观互动。相比于微观互动，重在考虑多方之间的多次相互作用，而非一对一、单次作用。如果说上一章是理论准备，本章就是实战分析。 伪学也经常有实战分析。比如有篇写给副手看的文章建议：副手应该不抢正职风头，处处为正职考虑，要确实对正职有价值——恐怕正职自己都不好意思提这些要求吧。鼓 ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/XXJX/" class="lightblue">新下级学</a> 
+    发布于 2020-05-30 09:04 
+    <span class="article_comment"><a href="https://www.cnblogs.com/XXJX/archive/2020/05/30/12990798.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/XXJX/archive/2020/05/30/12990798.html" class="gray">阅读(9)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('kungfupanda',12990509,58085,1)"> 
+	<span class="diggnum" id="digg_count_12990509">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12990509" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/kungfupanda/archive/2020/05/30/12990509.html" target="_blank">一文彻底搞懂Cookie、Session、Token到底是什么</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/kungfupanda/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/u74092.jpg" alt=""/></a>    https://juejin.im/post/5de4c3c76fb9a071b86cc482#heading-0 什么是认证（Authentication） 通俗地讲就是验证当前用户的身份，证明“你是你自己”（比如：你每天上下班打卡，都需要通过指纹打卡，当你的指纹和系统里录入的指纹相匹配时，就打卡 ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/kungfupanda/" class="lightblue">功夫 熊猫</a> 
+    发布于 2020-05-30 01:47 
+    <span class="article_comment"><a href="https://www.cnblogs.com/kungfupanda/archive/2020/05/30/12990509.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/kungfupanda/archive/2020/05/30/12990509.html" class="gray">阅读(0)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('cemaxueyuan',12990491,597972,1)"> 
+	<span class="diggnum" id="digg_count_12990491">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12990491" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/cemaxueyuan/archive/2020/05/30/12990491.html" target="_blank">功能测试（手工测试）转向软件测试工程师的进阶之路</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/cemaxueyuan/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/2013850/20200507155204.png" alt=""/></a>    今天在爱码小哥的知乎上看到一个网友提问说，功能测试（手工测试）想要提升自己应该怎么做，有哪些主要职责，正好今天有时间，明天是周六了。我整理了软件测试进阶各方面的资料。初衷于帮助大家免去网络上到处苦苦找寻学习资料的麻烦，时间是宝贵的，省下时间用来学习（获取方式在文章中间） 来说说功能测试（手工测试）想 ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/cemaxueyuan/" class="lightblue">爱码小哥</a> 
+    发布于 2020-05-30 01:24 
+    <span class="article_comment"><a href="https://www.cnblogs.com/cemaxueyuan/archive/2020/05/30/12990491.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/cemaxueyuan/archive/2020/05/30/12990491.html" class="gray">阅读(7)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('kungfupanda',12990460,58085,1)"> 
+	<span class="diggnum" id="digg_count_12990460">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12990460" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/kungfupanda/archive/2020/05/30/12990460.html" target="_blank">傻傻分不清之 Cookie、Session、Token、JWT</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/kungfupanda/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/u74092.jpg" alt=""/></a>    https://juejin.im/post/5e055d9ef265da33997a42cc 什么是认证（Authentication） 通俗地讲就是验证当前用户的身份，证明“你是你自己”（比如：你每天上下班打卡，都需要通过指纹打卡，当你的指纹和系统里录入的指纹相匹配时，就打卡成功） 互联网中的认 ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/kungfupanda/" class="lightblue">功夫 熊猫</a> 
+    发布于 2020-05-30 01:05 
+    <span class="article_comment"><a href="https://www.cnblogs.com/kungfupanda/archive/2020/05/30/12990460.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/kungfupanda/archive/2020/05/30/12990460.html" class="gray">阅读(1)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('cemaxueyuan',12990259,597972,1)"> 
+	<span class="diggnum" id="digg_count_12990259">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12990259" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/cemaxueyuan/archive/2020/05/29/12990259.html" target="_blank">3个月不发工资，拖延转正？2天跳槽软件测试成功，9.5k他不香吗！</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/cemaxueyuan/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/2013850/20200507155204.png" alt=""/></a>    今天聊到的小哥哥很悲催又很神奇，身处武汉的他，正好赶上了疫情，不仅长达3个月没有发工资，拖延转正，还要降薪，三重打击，实名悲催。 不破不立，试用期80%再打8折，怎么跳槽工资都得比这高，果然，仅仅两天，他就找到了9.5k的高薪。 神奇不神奇~小哥哥说，他的人生什么都不丰富，就面试的经验最丰富，让我们 ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/cemaxueyuan/" class="lightblue">爱码小哥</a> 
+    发布于 2020-05-29 23:51 
+    <span class="article_comment"><a href="https://www.cnblogs.com/cemaxueyuan/archive/2020/05/29/12990259.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/cemaxueyuan/archive/2020/05/29/12990259.html" class="gray">阅读(10)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('guizimo',12990213,586661,1)"> 
+	<span class="diggnum" id="digg_count_12990213">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12990213" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/guizimo/archive/2020/05/29/12990213.html" target="_blank">Python--报错TabError: inconsistent use of tabs and spaces in indentation</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/guizimo/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/1973296/20200316115023.png" alt=""/></a>    Python--报错TabError: inconsistent use of tabs and spaces in indentation 博客说明 文章所涉及的资料来自互联网整理和个人总结，意在于个人学习和经验汇总，如有什么地方侵权，请联系本人删除，谢谢！ 说明 在运行flask框架的时候报错， ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/guizimo/" class="lightblue">归子莫</a> 
+    发布于 2020-05-29 23:36 
+    <span class="article_comment"><a href="https://www.cnblogs.com/guizimo/archive/2020/05/29/12990213.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/guizimo/archive/2020/05/29/12990213.html" class="gray">阅读(9)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('topshark',12989623,482195,1)"> 
+	<span class="diggnum" id="digg_count_12989623">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12989623" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/topshark/archive/2020/05/29/12989623.html" target="_blank">Spring Data Jpa</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/topshark/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/1563598/20181214180012.png" alt=""/></a>    Spring Data Jpa 简介 JPA(Java Persistence API)意即Java持久化API，是Sun官方在JDK5.0后提出的Java持久化规范（JSR 338，这些接口所在包为javax.persistence，详细内容可参考https://github.com/javaee ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/topshark/" class="lightblue">大暑</a> 
+    发布于 2020-05-29 23:29 
+    <span class="article_comment"><a href="https://www.cnblogs.com/topshark/archive/2020/05/29/12989623.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/topshark/archive/2020/05/29/12989623.html" class="gray">阅读(35)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="post_item">
+<div class="digg">
+    <div class="diggit" onclick="DiggPost('XXJX',12990126,606220,1)"> 
+	<span class="diggnum" id="digg_count_12990126">0</span>
+	</div>
+	<div class="clear"></div>
+    <div id="digg_tip_12990126" class="digg_tip">
+        
+    </div>
+</div>      
+<div class="post_item_body">
+	<h3><a class="titlelnk" href="https://www.cnblogs.com/XXJX/archive/2020/05/29/12990126.html" target="_blank">《新下级学》第七章第五节——互动的陷阱</a></h3>               	
+    <p class="post_item_summary">
+<a href="https://www.cnblogs.com/XXJX/" target="_blank"><img width="48" height="48" class="pfs" src="https://pic.cnblogs.com/face/2035139/20200512090205.png" alt=""/></a>    7.5互动的陷阱 有时，上级在指挥、奖惩频道中似乎消失了，这叫“缺位”。例如：指挥频道里，下级怎么问他，都没有回音，或者只有空话套话废话；奖惩频道里，干好干坏一个样。 业余频道不存在缺位问题，因为它不是工作的必需品。 排除通讯中断这样的技术性问题，缺位只能意味着上级在逃避责任：要么是他也不知道怎么做 ...
+    </p>
+    <div class="post_item_foot">                    
+    <a href="https://www.cnblogs.com/XXJX/" class="lightblue">新下级学</a> 
+    发布于 2020-05-29 23:18 
+    <span class="article_comment"><a href="https://www.cnblogs.com/XXJX/archive/2020/05/29/12990126.html#commentform" title="0001-01-01 08:05" class="gray">
+        评论(0)</a></span><span class="article_view"><a href="https://www.cnblogs.com/XXJX/archive/2020/05/29/12990126.html" class="gray">阅读(11)</a></span></div>
+</div>
+<div class="clear"></div>
+</div>
+   
+
+            </div>
+            <script>editorPickStat(); aggSite.user.getUserInfo();</script>
+            <script type="text/javascript">
+                var aggSiteModel = {"CategoryType":"TopSiteCategory","ParentCategoryId":0,"CategoryId":4,"PageIndex":1,"TotalPostCount":4000,"ItemListActionName":"AggSitePostList"};
+            </script>
+            <div id="pager_bottom"><div id="paging_block"><div class="pager"><a href="/cate/4/" class="p_1 current" onclick="aggSite.loadCategoryPostList(1,20);buildPaging(1);return false;">1</a><a href="/cate/4/2" class="p_2 middle" onclick="aggSite.loadCategoryPostList(2,20);buildPaging(2);return false;">2</a><a href="/cate/4/3" class="p_3 middle" onclick="aggSite.loadCategoryPostList(3,20);buildPaging(3);return false;">3</a><a href="/cate/4/4" class="p_4 middle" onclick="aggSite.loadCategoryPostList(4,20);buildPaging(4);return false;">4</a><a href="/cate/4/5" class="p_5 middle" onclick="aggSite.loadCategoryPostList(5,20);buildPaging(5);return false;">5</a><a href="/cate/4/6" class="p_6 middle" onclick="aggSite.loadCategoryPostList(6,20);buildPaging(6);return false;">6</a><a href="/cate/4/7" class="p_7 middle" onclick="aggSite.loadCategoryPostList(7,20);buildPaging(7);return false;">7</a><a href="/cate/4/8" class="p_8 middle" onclick="aggSite.loadCategoryPostList(8,20);buildPaging(8);return false;">8</a><a href="/cate/4/9" class="p_9 middle" onclick="aggSite.loadCategoryPostList(9,20);buildPaging(9);return false;">9</a><a href="/cate/4/10" class="p_10 middle" onclick="aggSite.loadCategoryPostList(10,20);buildPaging(10);return false;">10</a><a href="/cate/4/11" class="p_11 middle" onclick="aggSite.loadCategoryPostList(11,20);buildPaging(11);return false;">11</a><span class="ellipsis">···</span><a href="/cate/4/200" class="p_200 last" onclick="aggSite.loadCategoryPostList(200,20);buildPaging(200);return false;">200</a><a href="/cate/4/2" onclick="aggSite.loadCategoryPostList(2,20);buildPaging(2);return false;">Next &gt;</a></div></div><script type="text/javascript">var pagingBuider={"OnlyLinkText":false,"TotalCount":4000,"PageIndex":1,"PageSize":20,"ShowPageCount":5,"SkipCount":0,"UrlFormat":"/cate/4/{0}","OnClickJsFunc":"aggSite.loadCategoryPostList()","FirstPageLink":"/cate/4/","AjaxUrl":"/AggSite/Pager","AjaxCallbak":null,"TopPagerId":"pager_top","IsRenderScript":true};function buildPaging(pageIndex){pagingBuider.PageIndex=pageIndex;$.ajax({url:pagingBuider.AjaxUrl,data:JSON.stringify(pagingBuider),type:'post',dataType:'text',contentType:'application/json; charset=utf-8',success:function (data) { $('#paging_block').html(data); var pagerTop=$('#pager_top');if(pageIndex>1){$(pagerTop).html(data).show();}else{$(pagerTop).hide();}}});}</script>
+</div>
+            <div id="side_nav">
+                
+    <div id="cate_title_block">
+<div id="cate_title_title"><div class="cate_title">网站分类</div></div>
+<ul id="cate_item">
+<li id="cate_item_108698" onmouseover="cateShow(108698)" onmouseout="cateHidden(108698)">
+<a href="/cate/108698/">.NET技术(3)</a>
+</li>
+<li id="cate_item_2" onmouseover="cateShow(2)" onmouseout="cateHidden(2)">
+<a href="/cate/2/">编程语言(13)</a>
+</li>
+<li id="cate_item_108701" onmouseover="cateShow(108701)" onmouseout="cateHidden(108701)">
+<a href="/cate/108701/">软件设计(1)</a>
+</li>
+<li id="cate_item_108703" onmouseover="cateShow(108703)" onmouseout="cateHidden(108703)">
+<a href="/cate/108703/">Web前端(3)</a>
+</li>
+<li id="cate_item_108704" onmouseover="cateShow(108704)" onmouseout="cateHidden(108704)">
+<a href="/cate/108704/">企业信息化(1)</a>
+</li>
+<li id="cate_item_108705" onmouseover="cateShow(108705)" onmouseout="cateHidden(108705)">
+<a href="/cate/108705/">手机开发(0)</a>
+</li>
+<li id="cate_item_108709" onmouseover="cateShow(108709)" onmouseout="cateHidden(108709)">
+<a href="/cate/108709/">软件工程(2)</a>
+</li>
+<li id="cate_item_108712" onmouseover="cateShow(108712)" onmouseout="cateHidden(108712)">
+<a href="/cate/108712/">数据库技术(4)</a>
+</li>
+<li id="cate_item_108724" onmouseover="cateShow(108724)" onmouseout="cateHidden(108724)">
+<a href="/cate/108724/">操作系统(1)</a>
+</li>
+<li id="cate_item_4" onmouseover="cateShow(4)" onmouseout="cateHidden(4)">
+<a href="/cate/4/">其他分类(4)</a>
+</li>
+<li id="cate_item_0" onmouseover="cateShow(0)" onmouseout="cateHidden(0)">
+<a href="/cate/all/">所有随笔(817)</a>
+</li>
+<li id="cate_item_-1" onmouseover="cateShow(-1)" onmouseout="cateHidden(-1)">
+<a href="/comment/">所有评论(163)</a>
+</li>
+</ul>
+<div class="cate_bottom"></div>
+<div id="cate_sub_block"></div>
+<script type="text/javascript">var cateIdList = '108698,2,108701,108703,108704,108705,108709,108712,108724,4';aggSite.loadSubCategories();</script>
+</div>
+        <div class="l_s"></div>
+<p class="r_l_3" /><p class="r_l_2" /><p class="r_l_1" />
+<div class="w_l">
+<h4>相关分类</h4>
+<ul>
+<li><a href="/cate/108698/">.NET技术</a></li>
+<li><a href="/cate/2/">编程语言</a></li>
+<li><a href="/cate/108701/">软件设计</a></li>
+<li><a href="/cate/108703/">Web前端</a></li>
+<li><a href="/cate/108704/">企业信息化</a></li>
+<li><a href="/cate/108705/">手机开发</a></li>
+<li><a href="/cate/108709/">软件工程</a></li>
+<li><a href="/cate/108712/">数据库技术</a></li>
+<li><a href="/cate/108724/">操作系统</a></li>
+</ul>
+</div>
+<p class="r_l_1" /><p class="r_l_2" /><p class="r_l_3" />
+<div class="l_s"></div>
+<p class="r_l_3"></p><p class="r_l_2"></p><p class="r_l_1"></p>
+<div class="w_l">
+<h4>链接</h4>        
+<ul>
+    <li><a href="https://group.cnblogs.com/forum/public/" target="_blank">反馈或建议</a></li> 
+    <li><a href="//www.cnblogs.com/cmt/" target="_blank">官方博客</a></li>
+    <li><a href="/skins.aspx" target="_blank">博客模板</a></li>
+    <li><a href="http://www.blogjava.net/">Java博客</a></li>
+    <li><a href="http://www.cppblog.com/">C++博客</a></li>
+    <li><a href="//www.cnblogs.com/cmt/archive/2009/09/26/1574616.html">手机版</a></li>
+</ul>
+</div>
+<p class="r_l_1"></p><p class="r_l_2"></p><p class="r_l_3"></p>
+<div class="l_s"></div>
+<div id="user_stats"></div>
+<div class="l_s"></div>        
+<p class="r_l_3"></p><p class="r_l_2"></p><p class="r_l_1"></p>
+<div class="w_l">                
+<h4>统计信息</h4>
+<div id="site_stats"></div>      
+</div>
+<p class="r_l_1"></p><p class="r_l_2"></p><p class="r_l_3"></p>
+            </div>
+            <div id="side_right">
+                    <div id="search_block">
+                        <div class="side_search">
+                            <input type="text" id="zzk_q" class="search_input" onkeydown="return zzk_go_enter(event);" tabindex="3" /><input onclick="zzk_go()" type="button" class="search_btn" value="找找看" />
+                        </div>
+                        <div id="google_search" class="side_search">
+                            <input type="text" id="google_search_q" class="search_input" onkeydown="return google_search_enter(event);" /><input type="button" value="Google" class="search_btn" onclick="return google_search();" />
+                        </div>
+                    </div>
+                <div id="cnblogs_a1">
+                    <div id='div-gpt-ad-1547816814884-0' style='height:60px; width:468px;'>
+                        <script>
+                            googletag.cmd.push(function () { googletag.display('div-gpt-ad-1547816814884-0'); });
+                        </script>
+                    </div>
+                </div>
+                <div id="cnblogs_b1" class="sidebar-image">
+                    <div id='div-gpt-ad-1546331539224-0' style='height:250px; width:300px;'>
+                        <script>
+                            googletag.cmd.push(function () { googletag.display('div-gpt-ad-1546331539224-0'); });
+                        </script>
+                    </div>
+                </div>
+                <div id="ad_right_text" class="ad_right_text"></div>
+                <div id="side_right_block"></div>
+            </div>
+        </div>
+        <div id="footer_bottom">
+            <div>Powered by .NET Core on Kubernetes</div>
+            <div><a href="https://about.cnblogs.com/">关于博客园</a><a href="https://about.cnblogs.com/contact">联系我们</a><a href="https://about.cnblogs.com/ad">广告服务</a><a href="https://about.cnblogs.com/job">人才服务</a>&copy;2004-2020<a href="https://www.cnblogs.com/">博客园</a>保留所有权利<a href="http://www.beian.miit.gov.cn" target="_blank">沪ICP备09004260号</a></div>
+            <div><a href="https://ss.knet.cn/verifyseal.dll?sn=e131108110100433392itm000000&amp;ct=df&amp;a=1&amp;pa=0.25787803245785335" rel="nofollow" target="_blank"><img id="cnnic_img" src="//common.cnblogs.com/images/cnnic.png" alt="" width="64" height="23" /></a><a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011502001144" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="//common.cnblogs.com/images/ghs.png" alt="" /><span style="float:left;height:20px;line-height:20px;margin: 0 5px 0 5px; color:#939393;">沪公网安备 31011502001144号</span></a></div>
+        </div>
+    </div>
+</body>
+</html>

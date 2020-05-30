@@ -1,0 +1,775 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    <meta property="og:description" content="上一篇(https://www.cnblogs.com/meowv/p/12971041.html)使用HtmlAgilityPack抓取壁纸数据成功将图片存入数据库，本篇继续来完成一个全网各大平台的" />
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>基于 abp vNext 和 .NET Core 开发博客项目 - 定时任务最佳实战（二） - 阿星Plus - 博客园</title>
+    <link id="favicon" rel="shortcut icon" href="//common.cnblogs.com/favicon.ico?v=20200522" type="image/x-icon" />
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=KCO3_f2W_TC__-jZ7phSnmoFkQuWMJH2yAgA16eE3eY" />
+    
+    <link type="text/css" rel="stylesheet" href="https://www.cnblogs.com/meowv/custom.css?v=kRG3NHMWj7tGxPARFq8LMdMtbig=" />
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/SimpleMemory/bundle-SimpleMemory-mobile.min.css" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/meowv/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/meowv/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/meowv/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=6bwfCY2e02dLOXNW99G2BHZkYFmw9QyYTWeJ-W-sudo"></script>
+    <script>
+        var currentBlogId = 324339;
+        var currentBlogApp = 'meowv';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'SimpleMemory';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    
+    
+<!--done-->
+<div id="home">
+<div id="header">
+	<div id="blogTitle">
+        <a id="lnkBlogLogo" href="https://www.cnblogs.com/meowv/"><img id="blogLogo" src="/skins/custom/images/logo.gif" alt="返回主页" /></a>		
+		
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/meowv/">阿星Plus</a>
+</h1>
+<h2>
+生命不息，奋斗不止
+</h2>
+
+
+
+
+		
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+	<div id="navigator">
+		
+<ul id="navList">
+<li>
+</li>
+<li>
+
+</li>
+<li>
+
+
+</li>
+<li>
+</li>
+<li>
+
+<!--<partial name="./Shared/_XmlLink.cshtml" model="Model" /></li>--></li>
+<li>
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+</ul>
+
+
+		<div class="blogStats">
+			
+			<span id="stats_post_count">随笔 - 
+63&nbsp; </span>
+<span id="stats_article_count">文章 - 
+0&nbsp; </span>
+<span id="stats-comment_count">评论 - 
+170</span>
+
+			
+		</div><!--end: blogStats -->
+	</div><!--end: navigator 博客导航栏 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+		<div id="post_detail">
+    <!--done-->
+    <div id="topics">
+        <div class="post">
+            <h1 class = "postTitle">
+                
+<a id="cb_post_title_url" class="postTitle2" href="https://www.cnblogs.com/meowv/p/12974439.html">基于 abp vNext 和 .NET Core 开发博客项目 - 定时任务最佳实战（二）</a>
+
+            </h1>
+            <div class="clear"></div>
+            <div class="postBody">
+                
+<div id="cnblogs_post_body" class="blogpost-body cnblogs-markdown">
+    <p>上一篇(<a href="https://www.cnblogs.com/meowv/p/12971041.html">https://www.cnblogs.com/meowv/p/12971041.html</a>)使用<code>HtmlAgilityPack</code>抓取壁纸数据成功将图片存入数据库，本篇继续来完成一个全网各大平台的热点新闻数据的抓取。</p>
+<p>同样的，可以先预览一下我个人博客中的成品：<a href="https://meowv.com/hot">https://meowv.com/hot</a> 😝😝😝，和抓取壁纸的套路一样，大同小异。</p>
+<p><img src="https://img2020.cnblogs.com/blog/891843/202005/891843-20200528112520264-1501746108.png" alt="0"></p>
+<p>本次要抓取的源有18个，分别是博客园、V2EX、SegmentFault、掘金、微信热门、豆瓣精选、IT之家、36氪、百度贴吧、百度热搜、微博热搜、知乎热榜、知乎日报、网易新闻、GitHub、抖音热点、抖音视频、抖音正能量。</p>
+<p>还是将数据存入数据库，按部就班先将实体类和自定义仓储创建好，实体取名<code>HotNews</code>。贴一下代码：</p>
+<pre><code class="language-CSharp">//HotNews.cs
+using System;
+using Volo.Abp.Domain.Entities;
+
+namespace Meowv.Blog.Domain.HotNews
+{
+    public class HotNews : Entity&lt;Guid&gt;
+    {
+        /// &lt;summary&gt;
+        /// 标题
+        /// &lt;/summary&gt;
+        public string Title { get; set; }
+
+        /// &lt;summary&gt;
+        /// 链接
+        /// &lt;/summary&gt;
+        public string Url { get; set; }
+
+        /// &lt;summary&gt;
+        /// SourceId
+        /// &lt;/summary&gt;
+        public int SourceId { get; set; }
+
+        /// &lt;summary&gt;
+        /// 创建时间
+        /// &lt;/summary&gt;
+        public DateTime CreateTime { get; set; }
+    }
+}
+</code></pre>
+<p>剩下的大家自己完成，最终数据库生成一张空的数据表，meowv_hotnews 。</p>
+<p><img src="https://img2020.cnblogs.com/blog/891843/202005/891843-20200528101807134-35560335.png" alt="1"></p>
+<p>然后还是将我们各大平台放到一个枚举类<code>HotNewsEnum.cs</code>中。</p>
+<pre><code class="language-CSharp">//HotNewsEnum.cs
+using System.ComponentModel;
+
+namespace Meowv.Blog.Domain.Shared.Enum
+{
+    public enum HotNewsEnum
+    {
+        [Description(&quot;博客园&quot;)]
+        cnblogs = 1,
+
+        [Description(&quot;V2EX&quot;)]
+        v2ex = 2,
+
+        [Description(&quot;SegmentFault&quot;)]
+        segmentfault = 3,
+
+        [Description(&quot;掘金&quot;)]
+        juejin = 4,
+
+        [Description(&quot;微信热门&quot;)]
+        weixin = 5,
+
+        [Description(&quot;豆瓣精选&quot;)]
+        douban = 6,
+
+        [Description(&quot;IT之家&quot;)]
+        ithome = 7,
+
+        [Description(&quot;36氪&quot;)]
+        kr36 = 8,
+
+        [Description(&quot;百度贴吧&quot;)]
+        tieba = 9,
+
+        [Description(&quot;百度热搜&quot;)]
+        baidu = 10,
+
+        [Description(&quot;微博热搜&quot;)]
+        weibo = 11,
+
+        [Description(&quot;知乎热榜&quot;)]
+        zhihu = 12,
+
+        [Description(&quot;知乎日报&quot;)]
+        zhihudaily = 13,
+
+        [Description(&quot;网易新闻&quot;)]
+        news163 = 14,
+
+        [Description(&quot;GitHub&quot;)]
+        github = 15,
+
+        [Description(&quot;抖音热点&quot;)]
+        douyin_hot = 16,
+
+        [Description(&quot;抖音视频&quot;)]
+        douyin_video = 17,
+
+        [Description(&quot;抖音正能量&quot;)]
+        douyin_positive = 18
+    }
+}
+</code></pre>
+<p>和上一篇抓取壁纸一样，做一些准备工作。</p>
+<p>在<code>.Application.Contracts</code>层添加<code>HotNewsJobItem&lt;T&gt;</code>，在<code>.BackgroundJobs</code>层添加<code>HotNewsJob</code>用来处理爬虫逻辑，用构造函数方式注入仓储<code>IHotNewsRepository</code>。</p>
+<pre><code class="language-CSharp">//HotNewsJobItem.cs
+using Meowv.Blog.Domain.Shared.Enum;
+
+namespace Meowv.Blog.Application.Contracts.HotNews
+{
+    public class HotNewsJobItem&lt;T&gt;
+    {
+        /// &lt;summary&gt;
+        /// &lt;see cref=&quot;Result&quot;/&gt;
+        /// &lt;/summary&gt;
+        public T Result { get; set; }
+
+        /// &lt;summary&gt;
+        /// 来源
+        /// &lt;/summary&gt;
+        public HotNewsEnum Source { get; set; }
+    }
+}
+</code></pre>
+<pre><code class="language-CSharp">//HotNewsJob.CS
+using Meowv.Blog.Domain.HotNews.Repositories;
+using System;
+using System.Net.Http;
+using System.Threading.Tasks;
+
+namespace Meowv.Blog.BackgroundJobs.Jobs.HotNews
+{
+    public class HotNewsJob : IBackgroundJob
+    {
+        private readonly IHttpClientFactory _httpClient;
+        private readonly IHotNewsRepository _hotNewsRepository;
+
+        public HotNewsJob(IHttpClientFactory httpClient,
+                          IHotNewsRepository hotNewsRepository)
+        {
+            _httpClient = httpClient;
+            _hotNewsRepository = hotNewsRepository;
+        }
+
+        public async Task ExecuteAsync()
+        {
+            throw new NotImplementedException();
+        }
+    }
+}
+</code></pre>
+<p>接下来明确数据源地址，因为以上数据源有的返回是HTML，有的直接返回JSON数据。为了方便调用，我这里还注入了<code>IHttpClientFactory</code>。</p>
+<p>整理好的待抓取数据源列表是这样的。</p>
+<pre><code class="language-CSharp">...
+var hotnewsUrls = new List&lt;HotNewsJobItem&lt;string&gt;&gt;
+{
+    new HotNewsJobItem&lt;string&gt; { Result = &quot;https://www.cnblogs.com&quot;, Source = HotNewsEnum.cnblogs },
+    new HotNewsJobItem&lt;string&gt; { Result = &quot;https://www.v2ex.com/?tab=hot&quot;, Source = HotNewsEnum.v2ex },
+    new HotNewsJobItem&lt;string&gt; { Result = &quot;https://segmentfault.com/hottest&quot;, Source = HotNewsEnum.segmentfault },
+    new HotNewsJobItem&lt;string&gt; { Result = &quot;https://web-api.juejin.im/query&quot;, Source = HotNewsEnum.juejin },
+    new HotNewsJobItem&lt;string&gt; { Result = &quot;https://weixin.sogou.com&quot;, Source = HotNewsEnum.weixin },
+    new HotNewsJobItem&lt;string&gt; { Result = &quot;https://www.douban.com/group/explore&quot;, Source = HotNewsEnum.douban },
+    new HotNewsJobItem&lt;string&gt; { Result = &quot;https://www.ithome.com&quot;, Source = HotNewsEnum.ithome },
+    new HotNewsJobItem&lt;string&gt; { Result = &quot;https://36kr.com/newsflashes&quot;, Source = HotNewsEnum.kr36 },
+    new HotNewsJobItem&lt;string&gt; { Result = &quot;http://tieba.baidu.com/hottopic/browse/topicList&quot;, Source = HotNewsEnum.tieba },
+    new HotNewsJobItem&lt;string&gt; { Result = &quot;http://top.baidu.com/buzz?b=341&quot;, Source = HotNewsEnum.baidu },
+    new HotNewsJobItem&lt;string&gt; { Result = &quot;https://s.weibo.com/top/summary/summary&quot;, Source = HotNewsEnum.weibo },
+    new HotNewsJobItem&lt;string&gt; { Result = &quot;https://www.zhihu.com/api/v3/feed/topstory/hot-lists/total?limit=50&amp;desktop=true&quot;, Source = HotNewsEnum.zhihu },
+    new HotNewsJobItem&lt;string&gt; { Result = &quot;https://daily.zhihu.com&quot;, Source = HotNewsEnum.zhihudaily },
+    new HotNewsJobItem&lt;string&gt; { Result = &quot;http://news.163.com/special/0001386F/rank_whole.html&quot;, Source = HotNewsEnum.news163 },
+    new HotNewsJobItem&lt;string&gt; { Result = &quot;https://github.com/trending&quot;, Source = HotNewsEnum.github },
+    new HotNewsJobItem&lt;string&gt; { Result = &quot;https://www.iesdouyin.com/web/api/v2/hotsearch/billboard/word&quot;, Source = HotNewsEnum.douyin_hot },
+    new HotNewsJobItem&lt;string&gt; { Result = &quot;https://www.iesdouyin.com/web/api/v2/hotsearch/billboard/aweme&quot;, Source = HotNewsEnum.douyin_video },
+    new HotNewsJobItem&lt;string&gt; { Result = &quot;https://www.iesdouyin.com/web/api/v2/hotsearch/billboard/aweme/?type=positive&quot;, Source = HotNewsEnum.douyin_positive },
+};
+...
+</code></pre>
+<p>其中有几个比较特殊的，掘金、百度热搜、网易新闻。</p>
+<p>掘金需要发送Post请求，返回的是JSON数据，并且需要指定特有的请求头和请求数据，所有使用<code>IHttpClientFactory</code>创建了<code>HttpClient</code>对象。</p>
+<p>百度热搜、网易新闻两个老大哥玩套路，网页编码是GB2312的，所以要专门为其指定编码方式，不然取到的数据都是乱码。</p>
+<pre><code class="language-CSharp">...
+var web = new HtmlWeb();
+var list_task = new List&lt;Task&lt;HotNewsJobItem&lt;object&gt;&gt;&gt;();
+
+hotnewsUrls.ForEach(item =&gt;
+{
+    var task = Task.Run(async () =&gt;
+    {
+        var obj = new object();
+
+        if (item.Source == HotNewsEnum.juejin)
+        {
+            using var client = _httpClient.CreateClient();
+            client.DefaultRequestHeaders.Add(&quot;User-Agent&quot;, &quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.14 Safari/537.36 Edg/83.0.478.13&quot;);
+            client.DefaultRequestHeaders.Add(&quot;X-Agent&quot;, &quot;Juejin/Web&quot;);
+            var data = &quot;{\&quot;extensions\&quot;:{\&quot;query\&quot;:{ \&quot;id\&quot;:\&quot;21207e9ddb1de777adeaca7a2fb38030\&quot;}},\&quot;operationName\&quot;:\&quot;\&quot;,\&quot;query\&quot;:\&quot;\&quot;,\&quot;variables\&quot;:{ \&quot;first\&quot;:20,\&quot;after\&quot;:\&quot;\&quot;,\&quot;order\&quot;:\&quot;THREE_DAYS_HOTTEST\&quot;}}&quot;;
+            var buffer = data.SerializeUtf8();
+            var byteContent = new ByteArrayContent(buffer);
+            byteContent.Headers.ContentType = new MediaTypeHeaderValue(&quot;application/json&quot;);
+
+            var httpResponse = await client.PostAsync(item.Result, byteContent);
+            obj = await httpResponse.Content.ReadAsStringAsync();
+        }
+        else
+        {
+            Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
+            obj = await web.LoadFromWebAsync(item.Result, (item.Source == HotNewsEnum.baidu || item.Source == HotNewsEnum.news163) ? Encoding.GetEncoding(&quot;GB2312&quot;) : Encoding.UTF8);
+        }
+
+        return new HotNewsJobItem&lt;object&gt;
+        {
+            Result = obj,
+            Source = item.Source
+        };
+    });
+    list_task.Add(task);
+});
+Task.WaitAll(list_task.ToArray());
+</code></pre>
+<p>循环 hotnewsUrls ，可以看到<code>HotNewsJobItem</code>我们返回的是object类型，因为有JSON又有HtmlDocument对象。所以这里为了能够统一接收，就是用了object。</p>
+<p>针对掘金做了单独处理，使用<code>HttpClient</code>发送Post请求，返回JSON字符串数据。</p>
+<p>针对百度热搜和网易新闻，使用<code>Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);</code>注册编码提供程序，然后在<code>web.LoadFromWebAsync(...)</code>加载网页数据的时候指定网页编码，我使用了一个三元表达式来处理。</p>
+<p>完成上面这一步，就可以循环 list_task，使用XPath语法，或者解析JSON数据，去拿到数据了。</p>
+<pre><code class="language-CSharp">...
+var hotNews = new List&lt;HotNews&gt;();
+foreach (var list in list_task)
+{
+    var item = await list;
+    var sourceId = (int)item.Source;
+
+    ...
+
+    if (hotNews.Any())
+    {
+        await _hotNewsRepository.DeleteAsync(x =&gt; true);
+        await _hotNewsRepository.BulkInsertAsync(hotNews);
+    }
+}
+</code></pre>
+<p>这个爬虫同样很简单，只要拿到标题和链接即可，所以主要目标是寻找到页面上的a标签列表。这个我觉得也没必要一个个去分析了，直接上代码。</p>
+<pre><code class="language-CSharp">// 博客园
+ if (item.Source == HotNewsEnum.cnblogs)
+ {
+     var nodes = ((HtmlDocument)item.Result).DocumentNode.SelectNodes(&quot;//div[@class='post_item_body']/h3/a&quot;).ToList();
+     nodes.ForEach(x =&gt;
+     {
+         hotNews.Add(new HotNews
+         {
+             Title = x.InnerText,
+             Url = x.GetAttributeValue(&quot;href&quot;, &quot;&quot;),
+             SourceId = sourceId,
+             CreateTime = DateTime.Now
+         });
+     });
+ }
+</code></pre>
+<pre><code class="language-CSharp">// V2EX
+if (item.Source == HotNewsEnum.v2ex)
+{
+    var nodes = ((HtmlDocument)item.Result).DocumentNode.SelectNodes(&quot;//span[@class='item_title']/a&quot;).ToList();
+    nodes.ForEach(x =&gt;
+    {
+        hotNews.Add(new HotNews
+        {
+            Title = x.InnerText,
+            Url = $&quot;https://www.v2ex.com{x.GetAttributeValue(&quot;href&quot;, &quot;&quot;)}&quot;,
+            SourceId = sourceId,
+            CreateTime = DateTime.Now
+        });
+    });
+}
+</code></pre>
+<pre><code class="language-CSharp"> // SegmentFault
+ if (item.Source == HotNewsEnum.segmentfault)
+ {
+     var nodes = ((HtmlDocument)item.Result).DocumentNode.SelectNodes(&quot;//div[@class='news__item-info clearfix']/a&quot;).Where(x =&gt; x.InnerText.IsNotNullOrEmpty()).ToList();
+     nodes.ForEach(x =&gt;
+     {
+         hotNews.Add(new HotNews
+         {
+             Title = x.SelectSingleNode(&quot;.//h4&quot;).InnerText,
+             Url = $&quot;https://segmentfault.com{x.GetAttributeValue(&quot;href&quot;, &quot;&quot;)}&quot;,
+             SourceId = sourceId,
+             CreateTime = DateTime.Now
+         });
+     });
+ }
+</code></pre>
+<pre><code class="language-CSharp">// 掘金
+if (item.Source == HotNewsEnum.juejin)
+{
+    var obj = JObject.Parse((string)item.Result);
+    var nodes = obj[&quot;data&quot;][&quot;articleFeed&quot;][&quot;items&quot;][&quot;edges&quot;];
+    foreach (var node in nodes)
+    {
+        hotNews.Add(new HotNews
+        {
+            Title = node[&quot;node&quot;][&quot;title&quot;].ToString(),
+            Url = node[&quot;node&quot;][&quot;originalUrl&quot;].ToString(),
+            SourceId = sourceId,
+            CreateTime = DateTime.Now
+        });
+    }
+}
+</code></pre>
+<pre><code class="language-CSharp">// 微信热门
+if (item.Source == HotNewsEnum.weixin)
+{
+    var nodes = ((HtmlDocument)item.Result).DocumentNode.SelectNodes(&quot;//ul[@class='news-list']/li/div[@class='txt-box']/h3/a&quot;).ToList();
+    nodes.ForEach(x =&gt;
+    {
+        hotNews.Add(new HotNews
+        {
+            Title = x.InnerText,
+            Url = x.GetAttributeValue(&quot;href&quot;, &quot;&quot;),
+            SourceId = sourceId,
+            CreateTime = DateTime.Now
+        });
+    });
+}
+</code></pre>
+<pre><code class="language-CSharp">// 豆瓣精选
+if (item.Source == HotNewsEnum.douban)
+{
+    var nodes = ((HtmlDocument)item.Result).DocumentNode.SelectNodes(&quot;//div[@class='channel-item']/div[@class='bd']/h3/a&quot;).ToList();
+    nodes.ForEach(x =&gt;
+    {
+        hotNews.Add(new HotNews
+        {
+            Title = x.InnerText,
+            Url = x.GetAttributeValue(&quot;href&quot;, &quot;&quot;),
+            SourceId = sourceId,
+            CreateTime = DateTime.Now
+        });
+    });
+}
+</code></pre>
+<pre><code class="language-CSharp">// IT之家
+if (item.Source == HotNewsEnum.ithome)
+{
+    var nodes = ((HtmlDocument)item.Result).DocumentNode.SelectNodes(&quot;//div[@class='lst lst-2 hot-list']/div[1]/ul/li/a&quot;).ToList();
+    nodes.ForEach(x =&gt;
+    {
+        hotNews.Add(new HotNews
+        {
+            Title = x.InnerText,
+            Url = x.GetAttributeValue(&quot;href&quot;, &quot;&quot;),
+            SourceId = sourceId,
+            CreateTime = DateTime.Now
+        });
+    });
+}
+</code></pre>
+<pre><code class="language-CSharp">// 36氪
+if (item.Source == HotNewsEnum.kr36)
+{
+    var nodes = ((HtmlDocument)item.Result).DocumentNode.SelectNodes(&quot;//div[@class='hotlist-main']/div[@class='hotlist-item-toptwo']/a[2]|//div[@class='hotlist-main']/div[@class='hotlist-item-other clearfloat']/div[@class='hotlist-item-other-info']/a&quot;).ToList();
+    nodes.ForEach(x =&gt;
+    {
+        hotNews.Add(new HotNews
+        {
+            Title = x.InnerText,
+            Url = $&quot;https://36kr.com{x.GetAttributeValue(&quot;href&quot;, &quot;&quot;)}&quot;,
+            SourceId = sourceId,
+            CreateTime = DateTime.Now
+        });
+    });
+}
+</code></pre>
+<pre><code class="language-CSharp">// 百度贴吧
+if (item.Source == HotNewsEnum.tieba)
+{
+    var obj = JObject.Parse(((HtmlDocument)item.Result).ParsedText);
+    var nodes = obj[&quot;data&quot;][&quot;bang_topic&quot;][&quot;topic_list&quot;];
+    foreach (var node in nodes)
+    {
+        hotNews.Add(new HotNews
+        {
+            Title = node[&quot;topic_name&quot;].ToString(),
+            Url = node[&quot;topic_url&quot;].ToString().Replace(&quot;amp;&quot;, &quot;&quot;),
+            SourceId = sourceId,
+            CreateTime = DateTime.Now
+        });
+    }
+}
+</code></pre>
+<pre><code class="language-CSharp">// 百度热搜
+if (item.Source == HotNewsEnum.baidu)
+{
+    var nodes = ((HtmlDocument)item.Result).DocumentNode.SelectNodes(&quot;//table[@class='list-table']//tr/td[@class='keyword']/a[@class='list-title']&quot;).ToList();
+    nodes.ForEach(x =&gt;
+    {
+        hotNews.Add(new HotNews
+        {
+            Title = x.InnerText,
+            Url = x.GetAttributeValue(&quot;href&quot;, &quot;&quot;),
+            SourceId = sourceId,
+            CreateTime = DateTime.Now
+        });
+    });
+}
+</code></pre>
+<pre><code class="language-CSharp">// 微博热搜
+if (item.Source == HotNewsEnum.weibo)
+{
+    var nodes = ((HtmlDocument)item.Result).DocumentNode.SelectNodes(&quot;//table/tbody/tr/td[2]/a&quot;).ToList();
+    nodes.ForEach(x =&gt;
+    {
+        hotNews.Add(new HotNews
+        {
+            Title = x.InnerText,
+            Url = $&quot;https://s.weibo.com{x.GetAttributeValue(&quot;href&quot;, &quot;&quot;).Replace(&quot;#&quot;, &quot;%23&quot;)}&quot;,
+            SourceId = sourceId,
+            CreateTime = DateTime.Now
+        });
+    });
+}
+</code></pre>
+<pre><code class="language-CSharp">// 知乎热榜
+if (item.Source == HotNewsEnum.zhihu)
+{
+    var obj = JObject.Parse(((HtmlDocument)item.Result).ParsedText);
+    var nodes = obj[&quot;data&quot;];
+    foreach (var node in nodes)
+    {
+        hotNews.Add(new HotNews
+        {
+            Title = node[&quot;target&quot;][&quot;title&quot;].ToString(),
+            Url = $&quot;https://www.zhihu.com/question/{node[&quot;target&quot;][&quot;id&quot;]}&quot;,
+            SourceId = sourceId,
+            CreateTime = DateTime.Now
+        });
+    }
+}
+</code></pre>
+<pre><code class="language-CSharp">// 知乎日报
+if (item.Source == HotNewsEnum.zhihudaily)
+{
+    var nodes = ((HtmlDocument)item.Result).DocumentNode.SelectNodes(&quot;//div[@class='box']/a&quot;).ToList();
+    nodes.ForEach(x =&gt;
+    {
+        hotNews.Add(new HotNews
+        {
+            Title = x.InnerText,
+            Url = $&quot;https://daily.zhihu.com{x.GetAttributeValue(&quot;href&quot;, &quot;&quot;)}&quot;,
+            SourceId = sourceId,
+            CreateTime = DateTime.Now
+        });
+    });
+}
+</code></pre>
+<pre><code class="language-CSharp">// 网易新闻
+if (item.Source == HotNewsEnum.news163)
+{
+    var nodes = ((HtmlDocument)item.Result).DocumentNode.SelectNodes(&quot;//div[@class='area-half left']/div[@class='tabBox']/div[@class='tabContents active']/table//tr/td[1]/a&quot;).ToList();
+    nodes.ForEach(x =&gt;
+    {
+        hotNews.Add(new HotNews
+        {
+            Title = x.InnerText,
+            Url = x.GetAttributeValue(&quot;href&quot;, &quot;&quot;),
+            SourceId = sourceId,
+            CreateTime = DateTime.Now
+        });
+    });
+}
+</code></pre>
+<pre><code class="language-CSharp">// GitHub
+if (item.Source == HotNewsEnum.github)
+{
+    var nodes = ((HtmlDocument)item.Result).DocumentNode.SelectNodes(&quot;//article[@class='Box-row']/h1/a&quot;).ToList();
+    nodes.ForEach(x =&gt;
+    {
+        hotNews.Add(new HotNews
+        {
+            Title = x.InnerText.Trim().Replace(&quot;\n&quot;, &quot;&quot;).Replace(&quot; &quot;, &quot;&quot;),
+            Url = $&quot;https://github.com{x.GetAttributeValue(&quot;href&quot;, &quot;&quot;)}&quot;,
+            SourceId = sourceId,
+            CreateTime = DateTime.Now
+        });
+    });
+}
+</code></pre>
+<pre><code class="language-CSharp">// 抖音热点
+if (item.Source == HotNewsEnum.douyin_hot)
+{
+    var obj = JObject.Parse(((HtmlDocument)item.Result).ParsedText);
+    var nodes = obj[&quot;word_list&quot;];
+    foreach (var node in nodes)
+    {
+        hotNews.Add(new HotNews
+        {
+            Title = node[&quot;word&quot;].ToString(),
+            Url = $&quot;#{node[&quot;hot_value&quot;]}&quot;,
+            SourceId = sourceId,
+            CreateTime = DateTime.Now
+        });
+    }
+}
+</code></pre>
+<pre><code class="language-CSharp">// 抖音视频 &amp; 抖音正能量
+if (item.Source == HotNewsEnum.douyin_video || item.Source == HotNewsEnum.douyin_positive)
+{
+    var obj = JObject.Parse(((HtmlDocument)item.Result).ParsedText);
+    var nodes = obj[&quot;aweme_list&quot;];
+    foreach (var node in nodes)
+    {
+        hotNews.Add(new HotNews
+        {
+            Title = node[&quot;aweme_info&quot;][&quot;desc&quot;].ToString(),
+            Url = node[&quot;aweme_info&quot;][&quot;share_url&quot;].ToString(),
+            SourceId = sourceId,
+            CreateTime = DateTime.Now
+        });
+    }
+}
+</code></pre>
+<p>将<code>item.Result</code>转换成指定类型，最终拿到数据后，我们先删除所有数据后再批量插入。</p>
+<p>然后新建扩展方法<code>UseHotNewsJob()</code>，在模块类中调用。</p>
+<pre><code class="language-CSharp">//MeowvBlogBackgroundJobsExtensions.cs
+...
+        /// &lt;summary&gt;
+        /// 每日热点数据抓取
+        /// &lt;/summary&gt;
+        /// &lt;param name=&quot;context&quot;&gt;&lt;/param&gt;
+        public static void UseHotNewsJob(this IServiceProvider service)
+        {
+            var job = service.GetService&lt;HotNewsJob&gt;();
+
+            RecurringJob.AddOrUpdate(&quot;每日热点数据抓取&quot;, () =&gt; job.ExecuteAsync(), CronType.Hour(1, 2));
+        }
+...
+</code></pre>
+<p>指定定时任务为每2小时运行一次。</p>
+<pre><code class="language-CSharp">...
+        public override void OnApplicationInitialization(ApplicationInitializationContext context)
+        {
+            ...
+            var service = context.ServiceProvider;
+            ...
+            service.UseHotNewsJob();
+        }
+</code></pre>
+<p>编译运行，此时周期性作业就会出现我们的定时任务了。</p>
+<p><img src="https://img2020.cnblogs.com/blog/891843/202005/891843-20200528111458591-1545091514.png" alt="2"></p>
+<p>默认时间没到是不会执行的，我们手动执行等待一会看看效果。</p>
+<p><img src="https://img2020.cnblogs.com/blog/891843/202005/891843-20200528111904656-2025782870.png" alt="3"></p>
+<p><img src="https://img2020.cnblogs.com/blog/891843/202005/891843-20200528111836302-683698784.png" alt="4"></p>
+<p>执行完成后，成功将所有热点数据保存在数据库中，说明我们的爬虫已经搞定了，并且Hangfire会按照给定的规则去循环执行，你学会了吗？😁😁😁</p>
+<p>开源地址：<a href="https://github.com/Meowv/Blog/tree/blog_tutorial">https://github.com/Meowv/Blog/tree/blog_tutorial</a></p>
+
+</div>
+<div id="MySignature"></div>
+<div class="clear"></div>
+<div id="blog_post_info_block">
+    <div id="blog_post_info"></div>
+    <div class="clear"></div>
+    <div id="post_next_prev"></div>
+</div>
+            </div>
+            <div class="postDesc">posted @ 
+<span id="post-date">2020-05-30 11:12</span>&nbsp;
+<a href="https://www.cnblogs.com/meowv/">阿星Plus</a>&nbsp;
+阅读(<span id="post_view_count">...</span>)&nbsp;
+评论(<span id="post_comment_count">...</span>)&nbsp;
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12974439" rel="nofollow">编辑</a>&nbsp;
+<a href="javascript:void(0)" onclick="AddToWz(12974439);return false;">收藏</a></div>
+        </div>
+	    
+	    
+    </div><!--end: topics 文章、评论容器-->
+</div>
+<script src="https://common.cnblogs.com/highlight/9.12.0/highlight.min.js"></script>
+<script>markdown_highlight();</script>
+<script>
+    var allowComments = true, cb_blogId = 324339, cb_blogApp = 'meowv', cb_blogUserGuid = '7577f5ae-82ca-e511-9fc1-ac853d9f53cc';
+    var cb_entryId = 12974439, cb_entryCreatedDate = '2020-05-30 11:12', cb_postType = 1; 
+    loadViewCount(cb_entryId);
+    loadSideColumnAd();
+</script><a name="!comments"></a>
+<div id="blog-comments-placeholder"></div>
+<script>
+    var commentManager = new blogCommentManager();
+    commentManager.renderComments(0);
+</script>
+
+<div id="comment_form" class="commentform">
+    <a name="commentform"></a>
+    <div id="divCommentShow"></div>
+    <div id="comment_nav"><span id="span_refresh_tips"></span><a href="javascript:void(0);" onclick="return RefreshCommentList();" id="lnk_RefreshComments" runat="server" clientidmode="Static">刷新评论</a><a href="#" onclick="return RefreshPage();">刷新页面</a><a href="#top">返回顶部</a></div>
+    <div id="comment_form_container"></div>
+    <div class="ad_text_commentbox" id="ad_text_under_commentbox"></div>
+    <div id="ad_t2"></div>
+    <div id="opt_under_post"></div>
+    <script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+    <script>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+    </script>
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineSlot("/1090369/C1", [300, 250], "div-gpt-ad-1546353474406-0").addService(googletag.pubads());
+            googletag.defineSlot("/1090369/C2", [468, 60], "div-gpt-ad-1539008685004-0").addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
+    <div id="cnblogs_c1" class="c_ad_block">
+        <div id="div-gpt-ad-1546353474406-0" style="height:250px; width:300px;"></div>
+    </div>
+    <div id="under_post_news"></div>
+    <div id="cnblogs_c2" class="c_ad_block">
+        <div id="div-gpt-ad-1539008685004-0" style="height:60px; width:468px;"></div>
+    </div>
+    <div id="under_post_kb"></div>
+    <div id="HistoryToday" class="c_ad_block"></div>
+    <script type="text/javascript">
+        fixPostBody();
+        deliverBigBanner();
+setTimeout(function() { incrementViewCount(cb_entryId); }, 50);        deliverAdT2();
+        deliverAdC1();
+        deliverAdC2();
+        loadNewsAndKb();
+        loadBlogSignature();
+LoadPostCategoriesTags(cb_blogId, cb_entryId);        LoadPostInfoBlock(cb_blogId, cb_entryId, cb_blogApp, cb_blogUserGuid);
+        GetPrevNextPost(cb_entryId, cb_blogId, cb_entryCreatedDate, cb_postType);
+        loadOptUnderPost();
+        GetHistoryToday(cb_blogId, cb_blogApp, cb_entryCreatedDate);
+    </script>
+</div>
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+			
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+<div id="sidebar_ad"></div>
+			<div id="blog-calendar" style="display:none"></div><script>loadBlogDefaultCalendar();</script>
+			
+			<div id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+			</div>
+			
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+		<!--done-->
+Copyright &copy; 2020 阿星Plus
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+
+
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+
+
+    
+</body>
+</html>

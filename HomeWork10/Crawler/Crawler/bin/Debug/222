@@ -1,0 +1,891 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>小菠萝测试笔记 - 博客园</title>
+    <link id="favicon" rel="shortcut icon" href="//common.cnblogs.com/favicon.ico?v=20200522" type="image/x-icon" />
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=KCO3_f2W_TC__-jZ7phSnmoFkQuWMJH2yAgA16eE3eY" />
+    
+    <link type="text/css" rel="stylesheet" href="https://www.cnblogs.com/poloyy/custom.css?v=2tq555AFz&#x2B;AO7rINgJ/6NaoErSU=" />
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/SimpleMemory/bundle-SimpleMemory-mobile.min.css" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/poloyy/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/poloyy/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/poloyy/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=6bwfCY2e02dLOXNW99G2BHZkYFmw9QyYTWeJ-W-sudo"></script>
+    <script>
+        var currentBlogId = 567504;
+        var currentBlogApp = 'poloyy';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'SimpleMemory';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    
+    
+<!--done-->
+<div id="home">
+<div id="header">
+	<div id="blogTitle">
+        <a id="lnkBlogLogo" href="https://www.cnblogs.com/poloyy/"><img id="blogLogo" src="/skins/custom/images/logo.gif" alt="返回主页" /></a>		
+		
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/poloyy/">阿菠萝阿瑶</a>
+</h1>
+<h2>
+
+</h2>
+
+
+
+
+		
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+	<div id="navigator">
+		
+<ul id="navList">
+<li><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+<li>
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/poloyy/">
+首页</a>
+</li>
+<li>
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+<li>
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/%E5%B0%8F%E8%8F%A0%E8%90%9D%E6%B5%8B%E8%AF%95%E7%AC%94%E8%AE%B0">
+联系</a></li>
+<li>
+<a id="blog_nav_rss" class="menu" href="javascript:void(0)" data-rss="https://www.cnblogs.com/poloyy/rss/">
+订阅</a>
+<!--<partial name="./Shared/_XmlLink.cshtml" model="Model" /></li>--></li>
+<li>
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+</ul>
+
+
+		<div class="blogStats">
+			
+			<span id="stats_post_count">随笔 - 
+344&nbsp; </span>
+<span id="stats_article_count">文章 - 
+0&nbsp; </span>
+<span id="stats-comment_count">评论 - 
+120</span>
+
+			
+		</div><!--end: blogStats -->
+	</div><!--end: navigator 博客导航栏 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+		
+<!--done-->
+
+
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/poloyy/archive/2020/05/14.html">2020年5月14日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/poloyy/p/12890763.html">
+[置顶]    Mysql 常用函数（1）-  常用函数汇总
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：Mysql常用函数的汇总，可看下面系列文章 https://www.cnblogs.com/poloyy/category/1765164.html 前言 如果觉得博主整理的不好，可以看看官网文档哦：https://dev.mysql.com/doc/refman/5.7/en/functions.            <a href="https://www.cnblogs.com/poloyy/p/12890763.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-05-14 19:02
+小菠萝测试笔记
+<span class="post-view-count">阅读(97)</span><text> </text>
+<span class="post-comment-count">评论(3)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12890763" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/poloyy/archive/2020/01/21.html">2020年1月21日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/poloyy/p/12219145.html">
+[置顶]    全网最详细！Centos7.X 搭建Grafana+Jmeter+Influxdb 性能实时监控平台
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：背景 日常工作中，经常会用到Jmeter去压测，毕竟LR还要钱（@￥&amp;*...），而最常用的接口压力测试，我们都是通过聚合报告去查看压测结果的，然鹅聚合报告的真的是丑到家了，作为程序猿这当然不能忍！那我们要怎么给它变得好看点捏？ 如何华丽变身？ 方式 优点 缺点 场景 Jmeter+ant+Jenk            <a href="https://www.cnblogs.com/poloyy/p/12219145.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-01-21 11:34
+小菠萝测试笔记
+<span class="post-view-count">阅读(1177)</span><text> </text>
+<span class="post-comment-count">评论(8)</span><text> </text>
+<span class="post-digg-count">推荐(13)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12219145" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/poloyy/archive/2020/05/30.html">2020年5月30日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/poloyy/p/12989402.html">
+    Robot Framework（15）- 扩展关键字
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：如果你还想从头学起Robot Framework，可以看看这个系列的文章哦！ https://www.cnblogs.com/poloyy/category/1770899.html 前言 什么是扩展关键字？就是你自己写的 Python 文件，里面包含了函数或者类 然后 RF 导入这个 Python            <a href="https://www.cnblogs.com/poloyy/p/12989402.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-05-30 11:51
+小菠萝测试笔记
+<span class="post-view-count">阅读(37)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(1)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12989402" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/poloyy/archive/2020/05/29.html">2020年5月29日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/poloyy/p/12988270.html">
+    Robot Framework（14）- Variables 表的详细使用和具体例子
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：如果你还想从头学起Robot Framework，可以看看这个系列的文章哦！ https://www.cnblogs.com/poloyy/category/1770899.html Variables 表中声明变量 可以声明 Variables 表的地方 资源文件 测试套件文件 在测试套件文件中声            <a href="https://www.cnblogs.com/poloyy/p/12988270.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-05-29 16:41
+小菠萝测试笔记
+<span class="post-view-count">阅读(9)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12988270" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/poloyy/p/12980292.html">
+    Robot Framework（13）- RF 循环的详细使用
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：如果你还想从头学起Robot Framework，可以看看这个系列的文章哦！ https://www.cnblogs.com/poloyy/category/1770899.html 前言 RF用 :FOR&#160;或&#160;FOR&#160;来实现循环，没有&#160;While&#160;循环 :FOR&#160;是过时的循环写法，建议写&#160;FOR             <a href="https://www.cnblogs.com/poloyy/p/12980292.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-05-29 09:22
+小菠萝测试笔记
+<span class="post-view-count">阅读(34)</span><text> </text>
+<span class="post-comment-count">评论(1)</span><text> </text>
+<span class="post-digg-count">推荐(1)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12980292" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/poloyy/archive/2020/05/28.html">2020年5月28日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/poloyy/p/12939615.html">
+    Robot Framework（12）- 详细解读 RF 的变量和常量
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：如果你还想从头学起Robot Framework，可以看看这个系列的文章哦！ https://www.cnblogs.com/poloyy/category/1770899.html 常量的栗子 常量就不多说了吧，大家都懂！直接看栗子 上面&#160;log&#160;关键字后面跟的参数都是常量，且类型均是字符串【RF            <a href="https://www.cnblogs.com/poloyy/p/12939615.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-05-28 10:12
+小菠萝测试笔记
+<span class="post-view-count">阅读(73)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(1)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12939615" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/poloyy/p/12975028.html">
+    Robot Framework（11）- 用户关键字的详解
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：如果你还想从头学起Robot&#160;Framework，可以看看这个系列的文章哦！ https://www.cnblogs.com/poloyy/category/1770899.html 什么是用户关键字 类似 Python 里面的函数，我们自定义函数，等于我们自定义关键字，也称为用户关键字 *** K            <a href="https://www.cnblogs.com/poloyy/p/12975028.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-05-28 09:58
+小菠萝测试笔记
+<span class="post-view-count">阅读(22)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12975028" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/poloyy/archive/2020/05/27.html">2020年5月27日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/poloyy/p/12974508.html">
+    Robot Framework（10）- 使用资源文件
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：如果你还想从头学起Robot&#160;Framework，可以看看这个系列的文章哦！ https://www.cnblogs.com/poloyy/category/1770899.html 啥是资源文件 资源文件其实就是 RF 层面的库文件 里面可以包含：测试库、其他资源文件、变量文件 重点：里面不可以包            <a href="https://www.cnblogs.com/poloyy/p/12974508.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-05-27 17:12
+小菠萝测试笔记
+<span class="post-view-count">阅读(5)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12974508" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/poloyy/p/12973521.html">
+    Robot Framework（9）- 使用变量文件
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：如果你还想从头学起Robot Framework，可以看看这个系列的文章哦！ https://www.cnblogs.com/poloyy/category/1770899.html 啥是变量文件 变量文件包含了测试数据所需的变量 虽然变量可以通过变量表格&#160;*** Variables ***&#160;中创建            <a href="https://www.cnblogs.com/poloyy/p/12973521.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-05-27 15:45
+小菠萝测试笔记
+<span class="post-view-count">阅读(11)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12973521" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/poloyy/p/12956986.html">
+    Robot Framework（8）- Collections 测试库常用的关键字列表
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：如果你还想从头学起Robot Framework，可以看看这个系列的文章哦！ https://www.cnblogs.com/poloyy/category/1770899.html 前言 所有关键字的栗子，在后面会进行补充哦，现在先了解它的作用是啥 BuiltIn 库中的以下关键字也可以与列表和词            <a href="https://www.cnblogs.com/poloyy/p/12956986.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-05-27 13:57
+小菠萝测试笔记
+<span class="post-view-count">阅读(11)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12956986" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/poloyy/archive/2020/05/26.html">2020年5月26日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/poloyy/p/12966270.html">
+    Python常见问题 - pip报错 ValueError: Unable to find resource t64.exe in package pip._vendor.distlib
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：背景 执行以下命令更新 pip 库时报错 e:\py36\python.exe -m pip install --upgrade pip&#39; 解决方法 卸载 setuptools python -m pip uninstall pip setuptools 重新安装 setuptools pip in            <a href="https://www.cnblogs.com/poloyy/p/12966270.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-05-26 16:15
+小菠萝测试笔记
+<span class="post-view-count">阅读(49)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12966270" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/poloyy/p/12966125.html">
+    Cypress系列（2）- Cypress 框架的详细介绍
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：如果想从头学起Cypress，可以看下面的系列文章哦 https://www.cnblogs.com/poloyy/category/1768839.html Cypress 简介 基于 JavaScript 的前端测试工具，可以对浏览器中运行的任何内容进行快速、简单、可靠的测试 Cypress 是            <a href="https://www.cnblogs.com/poloyy/p/12966125.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-05-26 15:57
+小菠萝测试笔记
+<span class="post-view-count">阅读(89)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12966125" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/poloyy/p/12919454.html">
+    Cypress系列（1）- Window下安装 Cypress 并打开
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：如果想从头学起Cypress，可以看下面的系列文章哦 https://www.cnblogs.com/poloyy/category/1768839.html 系统要求 Cypress 是一个被安装在你电脑上的桌面应用，你的操作系统需要满足如下条件才能正常安装 Mac OS&#160;10.9+（仅提供64位            <a href="https://www.cnblogs.com/poloyy/p/12919454.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-05-26 13:21
+小菠萝测试笔记
+<span class="post-view-count">阅读(47)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12919454" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/poloyy/archive/2020/05/25.html">2020年5月25日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/poloyy/p/12956846.html">
+    Robot Framework（7）- DateTime 测试库常用的关键字列表
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：如果你还想从头学起Robot Framework，可以看看这个系列的文章哦！ https://www.cnblogs.com/poloyy/category/1770899.html 前言 所有关键字的栗子，在后面会进行补充哦，现在先了解它的作用是啥 关键字列表 关键字 参数 作用 Add Time            <a href="https://www.cnblogs.com/poloyy/p/12956846.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-05-25 14:45
+小菠萝测试笔记
+<span class="post-view-count">阅读(15)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12956846" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/poloyy/p/12956270.html">
+    Robot Framework（6）- BuiltIn 测试库常用的关键字列表
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：如果你还想从头学起Robot Framework，可以看看这个系列的文章哦！ https://www.cnblogs.com/poloyy/category/1770899.html 前言 所有关键字的栗子，在后面会进行补充哦，现在先了解它的作用是啥 C 开头常用关键字列表 E 开头常用关键字列表             <a href="https://www.cnblogs.com/poloyy/p/12956270.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-05-25 14:29
+小菠萝测试笔记
+<span class="post-view-count">阅读(14)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12956270" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/poloyy/p/12941894.html">
+    Robot Framework（5）- 使用测试库
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：如果你还想从头学起Robot Framework，可以看看这个系列的文章哦！ https://www.cnblogs.com/poloyy/category/1770899.html 前言 在RF 测试库里面，分为三种测试库 标准测试库 扩展测试库 远程测试库 标准测试库 啥是标准库 它们随 Rob            <a href="https://www.cnblogs.com/poloyy/p/12941894.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-05-25 10:03
+小菠萝测试笔记
+<span class="post-view-count">阅读(122)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12941894" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/poloyy/archive/2020/05/23.html">2020年5月23日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/poloyy/p/12938778.html">
+    Robot Framework（4）- 测试套件的基本使用
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：如果你还想从头学起Robot Framework，可以看看这个系列的文章哦！ https://www.cnblogs.com/poloyy/category/1770899.html 前言 因为是基于Pycharm 去写的，所以这里重点讲在Pycharm 写 RF 的语法格式和使用 我们在Pycha            <a href="https://www.cnblogs.com/poloyy/p/12938778.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-05-23 11:57
+小菠萝测试笔记
+<span class="post-view-count">阅读(44)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12938778" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/poloyy/archive/2020/05/22.html">2020年5月22日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/poloyy/p/12938321.html">
+    Robot Framework（3）- 基本概念
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：如果你还想从头学起Robot Framework，可以看看这个系列的文章哦！ https://www.cnblogs.com/poloyy/category/1770899.html 前言 在 RF 中，有很多专业概念，先大概浏览一遍先 测试套件 测试用例 测试套件文件的表 关键字 测试库 资源文件            <a href="https://www.cnblogs.com/poloyy/p/12938321.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-05-22 17:07
+小菠萝测试笔记
+<span class="post-view-count">阅读(17)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12938321" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/poloyy/p/12937736.html">
+    Robot Framework（2）- 快速安装
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：如果你还想从头学起Robot Framework，可以看看这个系列的文章哦！ https://www.cnblogs.com/poloyy/category/1770899.html 安装RF cmd直接执行以下命令【前提是已经有Python环境了哦】 pip install robotframew            <a href="https://www.cnblogs.com/poloyy/p/12937736.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-05-22 16:05
+小菠萝测试笔记
+<span class="post-view-count">阅读(18)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12937736" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/poloyy/p/12937432.html">
+    Robot Framework（1）- 入门介绍
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：如果你还想从头学起Robot Framework，可以看看这个系列的文章哦！ https://www.cnblogs.com/poloyy/category/1770899.html RF 的介绍 Robot Framework是基于 Python 的可扩展关键字驱动的自动化框架，用于验收测试 验收            <a href="https://www.cnblogs.com/poloyy/p/12937432.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-05-22 15:29
+小菠萝测试笔记
+<span class="post-view-count">阅读(34)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12937432" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/poloyy/p/12933486.html">
+    Appium自动化（16） - 使用手机浏览器进行自动化测试
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：如果你还想从头学起Appium，可以看看这个系列的文章哦！ https://www.cnblogs.com/poloyy/category/1693896.html 前言 前面我都讲的都是针对 app做UI自动化 今天我们来讲下利用手机浏览器做页面的UI自动化测试 其实跟 app 自动化的&#160;Desi            <a href="https://www.cnblogs.com/poloyy/p/12933486.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-05-22 10:07
+小菠萝测试笔记
+<span class="post-view-count">阅读(38)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12933486" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/poloyy/archive/2020/05/21.html">2020年5月21日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/poloyy/p/12933345.html">
+    Appium自动化（15） - 针对 webview 进行自动化测试
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：如果你还想从头学起Appium，可以看看这个系列的文章哦！ https://www.cnblogs.com/poloyy/category/1693896.html webview&#160;简介 WebView是android中一个非常重要的控件 它的作用是用来展示一个web页面，它使用的内核是&#160;webki            <a href="https://www.cnblogs.com/poloyy/p/12933345.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">posted @ 2020-05-21 20:11
+小菠萝测试笔记
+<span class="post-view-count">阅读(51)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(1)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12933345" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+
+<div class="topicListFooter">
+    <div id="nav_next_page">
+        
+    <a href="https://www.cnblogs.com/poloyy/default.html?page=2">
+        下一页
+    </a>
+
+    </div>    
+</div>
+
+
+
+
+
+
+
+
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+			
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+<div id="sidebar_ad"></div>
+			<div id="blog-calendar" style="display:none"></div><script>loadBlogDefaultCalendar();</script>
+			
+			<div id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+			</div>
+			
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+		<!--done-->
+Copyright &copy; 2020 小菠萝测试笔记
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+
+
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+
+
+    <div id="page_end_html">
+        
+
+<!-- 音乐播放器 -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+<!-- require MetingJS -->
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+<meting-js
+        id="329641066"
+        lrc-type="0"
+        server="netease"
+        order="random"
+        type="playlist"
+        fixed="true"
+        list-olded="true">
+</meting-js>
+
+
+<script type="text/javascript">
+/*加一只小猫咪*/
+
+$("#main").append('<div class="back-to-top cd-top faa-float animated cd-is-visible" style="top: -999px;"></div>')
+//scroll 事件适用于所有可滚动的元素和 window 对象（浏览器窗口）。
+$(window).scroll(function() {
+	var scroHei = $(window).scrollTop(); //滚动的高度
+	if (scroHei > 500) {
+		$('.back-to-top').css('top', '-200px');
+	} else {
+		$('.back-to-top').css('top', '-999px');
+	}
+})
+/*点击返回顶部*/
+$('.back-to-top').click(function() {
+$('body,html').animate({
+	scrollTop: 0
+}, 400);
+})
+
+</script>
+<div id="cnzzProtocol"  style="display: none;">
+    <span class="id_cnzz_stat_icon" id='cnzz_stat_icon_1278866025'></span>
+    <script src='https://s19.cnzz.com/z_stat.php?id=1278866025&online=1&show=line' type='text/javascript'></script>
+</div>
+<div id="cnzzProtocol"  style="display: none;">
+
+    </div>
+</body>
+</html>

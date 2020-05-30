@@ -1,0 +1,506 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    <meta property="og:description" content="如果你还想从头学起Robot Framework，可以看看这个系列的文章哦！ https://www.cnblogs.com/poloyy/category/1770899.html 前言 什么是扩展" />
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Robot Framework（15）- 扩展关键字 - 小菠萝测试笔记 - 博客园</title>
+    <link id="favicon" rel="shortcut icon" href="//common.cnblogs.com/favicon.ico?v=20200522" type="image/x-icon" />
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=KCO3_f2W_TC__-jZ7phSnmoFkQuWMJH2yAgA16eE3eY" />
+    
+    <link type="text/css" rel="stylesheet" href="https://www.cnblogs.com/poloyy/custom.css?v=2tq555AFz&#x2B;AO7rINgJ/6NaoErSU=" />
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/SimpleMemory/bundle-SimpleMemory-mobile.min.css" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/poloyy/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/poloyy/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/poloyy/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=6bwfCY2e02dLOXNW99G2BHZkYFmw9QyYTWeJ-W-sudo"></script>
+    <script>
+        var currentBlogId = 567504;
+        var currentBlogApp = 'poloyy';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'SimpleMemory';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    
+    
+<!--done-->
+<div id="home">
+<div id="header">
+	<div id="blogTitle">
+        <a id="lnkBlogLogo" href="https://www.cnblogs.com/poloyy/"><img id="blogLogo" src="/skins/custom/images/logo.gif" alt="返回主页" /></a>		
+		
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/poloyy/">阿菠萝阿瑶</a>
+</h1>
+<h2>
+
+</h2>
+
+
+
+
+		
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+	<div id="navigator">
+		
+<ul id="navList">
+<li><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+<li>
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/poloyy/">
+首页</a>
+</li>
+<li>
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+<li>
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/%E5%B0%8F%E8%8F%A0%E8%90%9D%E6%B5%8B%E8%AF%95%E7%AC%94%E8%AE%B0">
+联系</a></li>
+<li>
+<a id="blog_nav_rss" class="menu" href="javascript:void(0)" data-rss="https://www.cnblogs.com/poloyy/rss/">
+订阅</a>
+<!--<partial name="./Shared/_XmlLink.cshtml" model="Model" /></li>--></li>
+<li>
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+</ul>
+
+
+		<div class="blogStats">
+			
+			<span id="stats_post_count">随笔 - 
+344&nbsp; </span>
+<span id="stats_article_count">文章 - 
+0&nbsp; </span>
+<span id="stats-comment_count">评论 - 
+120</span>
+
+			
+		</div><!--end: blogStats -->
+	</div><!--end: navigator 博客导航栏 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+		<div id="post_detail">
+    <!--done-->
+    <div id="topics">
+        <div class="post">
+            <h1 class = "postTitle">
+                
+<a id="cb_post_title_url" class="postTitle2" href="https://www.cnblogs.com/poloyy/p/12989402.html">Robot Framework（15）- 扩展关键字</a>
+
+            </h1>
+            <div class="clear"></div>
+            <div class="postBody">
+                
+<div id="cnblogs_post_body" class="blogpost-body ">
+    <p><span style="font-size: 18pt; color: #d22c4a;"><strong>如果你还想从头学起Robot Framework，可以看看这个系列的文章哦！</strong></span></p>
+<p><a href="https://www.cnblogs.com/poloyy/category/1770899.html">https://www.cnblogs.com/poloyy/category/1770899.html</a></p>
+<p>&nbsp;</p>
+<h2>前言</h2>
+<ul>
+<li>什么是扩展关键字？就是你自己写的 Python 文件，里面包含了<span style="color: #d22c4a;"><strong>函数或者类</strong></span></li>
+<li>然后 RF 导入这个 Python 模块，就可以调用函数或者类方法，它们就是<span style="color: #d22c4a;"><strong>扩展关键字</strong></span></li>
+</ul>
+<p>&nbsp;</p>
+<h2>Python 模块作为测试库</h2>
+<p>模块文件名作为测试库的名字</p>
+<p><span style="color: #d22c4a;"><strong>比如：</strong></span>Python 模块名叫 MyLibrary，文件名是 MyLibrary.py，那么测试库的名字就叫做 MyLibrary</p>
+<p>&nbsp;</p>
+<h2>Python 模块和 Robot 文件同目录下的栗子</h2>
+<p>这是目录结构哈</p>
+<p><img src="https://img2020.cnblogs.com/blog/1896874/202005/1896874-20200530083654659-615166467.png" alt=""></p>
+<h4>python 模块的代码</h4>
+<div class="cnblogs_code">
+<pre><span style="color: #0000ff;">def</span><span style="color: #000000;"> returnlist():
+    </span><span style="color: #0000ff;">return</span> [i <span style="color: #0000ff;">for</span> i <span style="color: #0000ff;">in</span> range(10<span style="color: #000000;">)]
+
+
+</span><span style="color: #0000ff;">def</span><span style="color: #000000;"> return_dict():
+    </span><span style="color: #0000ff;">return</span> {<span style="color: #800000;">"</span><span style="color: #800000;">a</span><span style="color: #800000;">"</span>: <span style="color: #800000;">"</span><span style="color: #800000;">hahhahahaahah</span><span style="color: #800000;">"</span><span style="color: #000000;">}
+
+
+</span><span style="color: #008000;">#</span><span style="color: #008000;"> 以下划线开头的函数不能作为RF关键字</span>
+<span style="color: #0000ff;">def</span><span style="color: #000000;"> _returnlist2():
+    </span><span style="color: #0000ff;">return</span> [1, 2]</pre>
+</div>
+<h4>robot 代码</h4>
+<p><img src="https://img2020.cnblogs.com/blog/1896874/202005/1896874-20200530083842842-539535190.png" alt=""></p>
+<h4>进入test目录下，运行以下命令</h4>
+<div class="cnblogs_code">
+<pre> robot -P . test.robot </pre>
+</div>
+<h4>执行结果</h4>
+<p><img src="https://img2020.cnblogs.com/blog/1896874/202005/1896874-20200530083920897-1089682542.png" alt=""></p>
+<h4>知识点</h4>
+<ul>
+<li><span class="cnblogs_code">_</span>前缀的方法不会作为关键字，在Python里面，&nbsp;<span class="cnblogs_code">_</span>&nbsp;开头的方法是私有方法，RF 不会识别到它</li>
+<li>Python 方法作为关键字也是<span style="color: #d22c4a;"><strong>大小写不敏感</strong></span>的</li>
+<li>RF 中会把关键字的&nbsp;<span class="cnblogs_code">_</span>&nbsp;和单个空格忽略掉，所以&nbsp;<span class="cnblogs_code">returndict、<span style="color: #0000ff;">return</span> dict、return_dict</span>&nbsp;都是调用同一个关键字</li>
+</ul>
+<p>&nbsp;</p>
+<h2>Python 类作为测试库的栗子</h2>
+<h4>项目目录</h4>
+<p><img src="https://img2020.cnblogs.com/blog/1896874/202005/1896874-20200530100450280-1087862494.png" alt=""></p>
+<p>所有 Python 测试代码都在&nbsp;<span class="cnblogs_code">tlib2.py</span>&nbsp;里面哦</p>
+<p>最终运行是在【15_扩展关键字】目录下运行的，命令如下</p>
+<div class="cnblogs_code">
+<pre>robot -P . testrf</pre>
+</div>
+<p>&nbsp;</p>
+<h3>栗子一：类初始化不需要传参</h3>
+<h4>python 代码</h4>
+<div class="cnblogs_code">
+<pre><span style="color: #0000ff;">class</span><span style="color: #000000;"> SubLibrary:
+    </span><span style="color: #0000ff;">def</span> <span style="color: #800080;">__init__</span><span style="color: #000000;">(self):
+        </span><span style="color: #0000ff;">pass</span>
+
+    <span style="color: #0000ff;">def</span><span style="color: #000000;"> returnint(self):
+        </span><span style="color: #0000ff;">return</span> 2020
+
+    <span style="color: #0000ff;">def</span><span style="color: #000000;"> _returnint2(self):
+        </span><span style="color: #0000ff;">return</span> 4</pre>
+</div>
+<h4>robot 代码</h4>
+<p><img src="https://img2020.cnblogs.com/blog/1896874/202005/1896874-20200530092705298-599132193.png" alt=""></p>
+<h4>测试结果</h4>
+<p><img src="https://img2020.cnblogs.com/blog/1896874/202005/1896874-20200530095051282-1269733334.png" alt=""></p>
+<h4>知识点</h4>
+<ul>
+<li>在类里面，&nbsp;<span class="cnblogs_code">_</span>&nbsp;前缀的方法不会当做关键字</li>
+<li>同样，类中声明的方法当做关键字的话，<span style="color: #d22c4a;"><strong>大小写不敏感</strong></span></li>
+</ul>
+<p>&nbsp;</p>
+<h3>栗子二：类初始化需要传参</h3>
+<h4>python 代码</h4>
+<div class="cnblogs_code">
+<pre><span style="color: #0000ff;">from</span> robot.api <span style="color: #0000ff;">import</span><span style="color: #000000;"> logger<br />
+</span><span style="color: #0000ff;">class</span><span style="color: #000000;"> SubLibrary2:
+    </span><span style="color: #0000ff;">def</span> <span style="color: #800080;">__init__</span>(self, host, port, table=<span style="color: #800000;">'</span><span style="color: #800000;">test</span><span style="color: #800000;">'</span><span style="color: #000000;">):
+        self.host </span>=<span style="color: #000000;"> host
+        self.port </span>=<span style="color: #000000;"> port
+        self.table </span>=<span style="color: #000000;"> table
+
+    </span><span style="color: #0000ff;">def</span><span style="color: #000000;"> printaddr2(self):
+        logger.console(</span><span style="color: #800000;">'</span><span style="color: #800000;">host:%s,port:%s,table:%s</span><span style="color: #800000;">'</span> % (self.host, self.port, self.table))</pre>
+</div>
+<h4>robot 代码</h4>
+<p><img src="https://img2020.cnblogs.com/blog/1896874/202005/1896874-20200530092513021-2097458234.png" alt=""></p>
+<h4>测试结果</h4>
+<p><img src="https://img2020.cnblogs.com/blog/1896874/202005/1896874-20200530095105754-568512652.png" alt=""></p>
+<h4>知识点</h4>
+<p>如果类的&nbsp;<span class="cnblogs_code"><span style="color: #800080;">__init__</span></span>&nbsp;初始化方法需要传参，则在导入库后面跟对应的参数列表</p>
+<h4>拓展 Python 知识点：先有类对象，还是先执行类初始化方法？</h4>
+<p>&nbsp;<span class="cnblogs_code"><span style="color: #800080;">__new__</span></span>&nbsp;方法产生对象</p>
+<p>&nbsp;<span class="cnblogs_code"><span style="color: #800080;">__init__</span></span>&nbsp;对象的初始化方法</p>
+<p>先 new 一个对象，再 init 一个对象</p>
+<p>&nbsp;</p>
+<h3>栗子三：类名和模块名相同</h3>
+<h4>python 代码</h4>
+<div class="cnblogs_code">
+<pre><span style="color: #0000ff;">from</span> robot.api <span style="color: #0000ff;">import</span><span style="color: #000000;"> logger
+
+</span><span style="color: #0000ff;">class</span><span style="color: #000000;"> tlib2:
+    </span><span style="color: #0000ff;">def</span> <span style="color: #800080;">__init__</span><span style="color: #000000;">(self, host, port):
+        self.host </span>=<span style="color: #000000;"> host
+        self.port </span>=<span style="color: #000000;"> port
+
+    </span><span style="color: #0000ff;">def</span><span style="color: #000000;"> printaddr(self):
+        logger.console(</span><span style="color: #800000;">'</span><span style="color: #800000;">host:%s,port:%s</span><span style="color: #800000;">'</span> % (self.host, self.port))</pre>
+</div>
+<h4>robot 代码</h4>
+<p><img src="https://img2020.cnblogs.com/blog/1896874/202005/1896874-20200530092551627-665757822.png" alt=""></p>
+<h4>测试结果</h4>
+<p><img src="https://img2020.cnblogs.com/blog/1896874/202005/1896874-20200530095121379-1672205462.png" alt=""></p>
+<h4>知识点</h4>
+<p>如果类名和模块名相同，可以不用导入类名</p>
+<p>&nbsp;</p>
+<h3>栗子四：使用路径法导入 Python 模块</h3>
+<p>Python 代码用的还是栗子三的</p>
+<h4>robot 代码</h4>
+<p><img src="https://img2020.cnblogs.com/blog/1896874/202005/1896874-20200530095153734-1188268806.png" alt=""></p>
+<h4>测试结果</h4>
+<p><img src="https://img2020.cnblogs.com/blog/1896874/202005/1896874-20200530095145392-1106181488.png" alt=""></p>
+<h4>知识点</h4>
+<p>如果用路径法，需要注意导入 Python 模块需要有文件后缀哦，且用&nbsp;<span class="cnblogs_code">/</span>&nbsp;来表示目录下</p>
+<p><span style="color: #d22c4a;"><strong>重点：</strong></span>使用路径法，只能导入和模块名相同的类名！</p>
+<p>&nbsp;</p>
+<h1>Python 扩展库的搜索规则</h1>
+<h2>统一的规则</h2>
+<ul>
+<li>先根据 robot 文件自身当前目录下查找库文件</li>
+<li>如果没有找到则再根据&nbsp;<span class="cnblogs_code">--pythonpath</span>&nbsp;和&nbsp;<span class="cnblogs_code">-P</span>&nbsp;提供的搜索路径进行搜索</li>
+<li>最后找 Python 安装的路径</li>
+</ul>
+<p>&nbsp;</p>
+<h2>Python 库引入了其他模块</h2>
+<h4><span style="color: #d22c4a;"><strong>背景</strong></span></h4>
+<p>当 robot 文件导入的 Python 测试库引入了其他模块时，应该怎么写导入路径？</p>
+<h4><span style="color: #d22c4a;"><strong>正确写法</strong></span></h4>
+<p>确保导入的模块路径和RF导入的模块起始路径统一</p>
+<h3>看栗子</h3>
+<p>&nbsp;<span class="cnblogs_code">testother.robot</span>&nbsp;&nbsp;导入&nbsp;<span class="cnblogs_code">test.py</span>&nbsp;模块，&nbsp;<span class="cnblogs_code">test.py</span>&nbsp; 模块引入了&nbsp;<span class="cnblogs_code">login.py</span>&nbsp;模块的方法</p>
+<h4>目录结构</h4>
+<p><img src="https://img2020.cnblogs.com/blog/1896874/202005/1896874-20200530113016105-187960626.png" alt=""></p>
+<h4>login.py 代码</h4>
+<div class="cnblogs_code">
+<pre><span style="color: #0000ff;">from</span> robot.api <span style="color: #0000ff;">import</span><span style="color: #000000;"> logger
+
+
+</span><span style="color: #0000ff;">def</span><span style="color: #000000;"> login_test():
+    logger.console(</span><span style="color: #800000;">'</span><span style="color: #800000;">test login</span><span style="color: #800000;">'</span>)</pre>
+</div>
+<h4>test.py 代码</h4>
+<div class="cnblogs_code">
+<pre><span style="color: #0000ff;">from</span> pylib.login <span style="color: #0000ff;">import</span><span style="color: #000000;"> login_test
+</span><span style="color: #008000;">#</span><span style="color: #008000;"> from login import login_test 报错</span>
+
+<span style="color: #0000ff;">def</span><span style="color: #000000;"> test():
+    login_test()</span></pre>
+</div>
+<h4>robot 的代码</h4>
+<p><img src="https://img2020.cnblogs.com/blog/1896874/202005/1896874-20200530113021160-2014990868.png" alt=""></p>
+<h4>在 othertest 目录下运行下面命令</h4>
+<div class="cnblogs_code">
+<pre>robot -P . testother.robot</pre>
+</div>
+<h4>测试结果</h4>
+<p><img src="https://img2020.cnblogs.com/blog/1896874/202005/1896874-20200530113053504-910543527.png" alt=""></p>
+<h4>结论</h4>
+<ul>
+<li>可以看到&nbsp;<span class="cnblogs_code">robot</span>&nbsp;文件引入的路径是&nbsp;<span class="cnblogs_code">pylib</span>&nbsp;开头，&nbsp;<span class="cnblogs_code">test</span>&nbsp;模块引入&nbsp;<span class="cnblogs_code">login</span>&nbsp;模块的路径也是&nbsp;<span class="cnblogs_code">pylib</span>&nbsp;开头</li>
+<li>如果路径是&nbsp;<span class="cnblogs_code">login</span>&nbsp;开头导入，那么运行robot文件将会报错（如下图，包含了解析错误）</li>
+</ul>
+<p><img src="https://img2020.cnblogs.com/blog/1896874/202005/1896874-20200530113707901-1408361263.png" alt=""></p>
+<p>&nbsp;</p>
+<h2>Python 库中的 class 存在继承</h2>
+<h4>背景</h4>
+<p>当 robot 文件导入 Python 测试库的类继承了另一个类，应该怎么写导入路径？</p>
+<h4>正确写法</h4>
+<ul>
+<li>确保导入的模块路径和RF导入的模块起始路径统一</li>
+<li>使用的时候 RF 文件<span style="color: #d22c4a;"><strong>只需导入子类</strong></span>即可</li>
+</ul>
+<h3>看栗子</h3>
+<p>&nbsp;<span class="cnblogs_code">test.robot</span>&nbsp;引入了&nbsp;<span class="cnblogs_code">other.py</span>&nbsp; 模块下的&nbsp;<span class="cnblogs_code">Child</span>&nbsp;类，而&nbsp;<span class="cnblogs_code">Child</span>&nbsp;类继承了&nbsp;<span class="cnblogs_code">Base.py</span>&nbsp;模块下的&nbsp;<span class="cnblogs_code">Father</span>&nbsp;类</p>
+<h4>目录结构</h4>
+<p><img src="https://img2020.cnblogs.com/blog/1896874/202005/1896874-20200530114909580-1250081281.png" alt=""></p>
+<h4>base.py 的代码</h4>
+<div class="cnblogs_code">
+<pre><span style="color: #0000ff;">from</span> robot.libraries.BuiltIn <span style="color: #0000ff;">import</span><span style="color: #000000;"> logger
+
+
+</span><span style="color: #0000ff;">class</span><span style="color: #000000;"> Father:
+    </span><span style="color: #0000ff;">def</span> <span style="color: #800080;">__init__</span><span style="color: #000000;">(self):
+        logger.console(</span><span style="color: #800000;">'</span><span style="color: #800000;">init Father</span><span style="color: #800000;">'</span><span style="color: #000000;">)
+
+    </span><span style="color: #0000ff;">def</span><span style="color: #000000;"> money(self):
+        </span><span style="color: #0000ff;">return</span> <span style="color: #800000;">'</span><span style="color: #800000;">$10000</span><span style="color: #800000;">'</span></pre>
+</div>
+<h4>other.py 的代码</h4>
+<div class="cnblogs_code">
+<pre><span style="color: #0000ff;">from</span> robot.api <span style="color: #0000ff;">import</span><span style="color: #000000;"> logger
+</span><span style="color: #0000ff;">from</span> pylib.Base <span style="color: #0000ff;">import</span><span style="color: #000000;"> Father
+
+
+</span><span style="color: #0000ff;">class</span><span style="color: #000000;"> Child(Father):
+    </span><span style="color: #0000ff;">def</span> <span style="color: #800080;">__init__</span><span style="color: #000000;">(self):
+        Father.</span><span style="color: #800080;">__init__</span><span style="color: #000000;">(self)
+        logger.console(</span><span style="color: #800000;">'</span><span style="color: #800000;">init Child</span><span style="color: #800000;">'</span><span style="color: #000000;">)
+
+    </span><span style="color: #0000ff;">def</span><span style="color: #000000;"> use_money(self):
+        </span><span style="color: #0000ff;">return</span><span style="color: #000000;"> self.money()
+
+    </span><span style="color: #0000ff;">def</span><span style="color: #000000;"> make_money(self):
+        </span><span style="color: #0000ff;">return</span> <span style="color: #800000;">'</span><span style="color: #800000;">$9999</span><span style="color: #800000;">'</span></pre>
+</div>
+<h4>robot 的代码</h4>
+<p><img src="https://img2020.cnblogs.com/blog/1896874/202005/1896874-20200530115003348-1497514878.png" alt=""></p>
+<h4>在 testClass 目录下运行下面命令</h4>
+<div class="cnblogs_code">
+<pre>robot -P . test.robot</pre>
+</div>
+<h4>测试结果</h4>
+<p><img src="https://img2020.cnblogs.com/blog/1896874/202005/1896874-20200530115028511-1233010217.png" alt=""></p>
+<p>&nbsp;</p>
+</div>
+<div id="MySignature"></div>
+<div class="clear"></div>
+<div id="blog_post_info_block">
+    <div id="blog_post_info"></div>
+    <div class="clear"></div>
+    <div id="post_next_prev"></div>
+</div>
+            </div>
+            <div class="postDesc">posted @ 
+<span id="post-date">2020-05-30 11:51</span>&nbsp;
+<a href="https://www.cnblogs.com/poloyy/">小菠萝测试笔记</a>&nbsp;
+阅读(<span id="post_view_count">...</span>)&nbsp;
+评论(<span id="post_comment_count">...</span>)&nbsp;
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12989402" rel="nofollow">编辑</a>&nbsp;
+<a href="javascript:void(0)" onclick="AddToWz(12989402);return false;">收藏</a></div>
+        </div>
+	    
+	    
+    </div><!--end: topics 文章、评论容器-->
+</div>
+<script src="https://common.cnblogs.com/highlight/9.12.0/highlight.min.js"></script>
+<script>markdown_highlight();</script>
+<script>
+    var allowComments = true, cb_blogId = 567504, cb_blogApp = 'poloyy', cb_blogUserGuid = 'bfd58f0a-1e58-4ac0-e56e-08d77884eb28';
+    var cb_entryId = 12989402, cb_entryCreatedDate = '2020-05-30 11:51', cb_postType = 1; 
+    loadViewCount(cb_entryId);
+    loadSideColumnAd();
+</script><a name="!comments"></a>
+<div id="blog-comments-placeholder"></div>
+<script>
+    var commentManager = new blogCommentManager();
+    commentManager.renderComments(0);
+</script>
+
+<div id="comment_form" class="commentform">
+    <a name="commentform"></a>
+    <div id="divCommentShow"></div>
+    <div id="comment_nav"><span id="span_refresh_tips"></span><a href="javascript:void(0);" onclick="return RefreshCommentList();" id="lnk_RefreshComments" runat="server" clientidmode="Static">刷新评论</a><a href="#" onclick="return RefreshPage();">刷新页面</a><a href="#top">返回顶部</a></div>
+    <div id="comment_form_container"></div>
+    <div class="ad_text_commentbox" id="ad_text_under_commentbox"></div>
+    <div id="ad_t2"></div>
+    <div id="opt_under_post"></div>
+    <script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+    <script>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+    </script>
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineSlot("/1090369/C1", [300, 250], "div-gpt-ad-1546353474406-0").addService(googletag.pubads());
+            googletag.defineSlot("/1090369/C2", [468, 60], "div-gpt-ad-1539008685004-0").addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
+    <div id="cnblogs_c1" class="c_ad_block">
+        <div id="div-gpt-ad-1546353474406-0" style="height:250px; width:300px;"></div>
+    </div>
+    <div id="under_post_news"></div>
+    <div id="cnblogs_c2" class="c_ad_block">
+        <div id="div-gpt-ad-1539008685004-0" style="height:60px; width:468px;"></div>
+    </div>
+    <div id="under_post_kb"></div>
+    <div id="HistoryToday" class="c_ad_block"></div>
+    <script type="text/javascript">
+        fixPostBody();
+        deliverBigBanner();
+setTimeout(function() { incrementViewCount(cb_entryId); }, 50);        deliverAdT2();
+        deliverAdC1();
+        deliverAdC2();
+        loadNewsAndKb();
+        loadBlogSignature();
+LoadPostCategoriesTags(cb_blogId, cb_entryId);        LoadPostInfoBlock(cb_blogId, cb_entryId, cb_blogApp, cb_blogUserGuid);
+        GetPrevNextPost(cb_entryId, cb_blogId, cb_entryCreatedDate, cb_postType);
+        loadOptUnderPost();
+        GetHistoryToday(cb_blogId, cb_blogApp, cb_entryCreatedDate);
+    </script>
+</div>
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+			
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+<div id="sidebar_ad"></div>
+			<div id="blog-calendar" style="display:none"></div><script>loadBlogDefaultCalendar();</script>
+			
+			<div id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+			</div>
+			
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+		<!--done-->
+Copyright &copy; 2020 小菠萝测试笔记
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+
+
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+
+
+    <div id="page_end_html">
+        
+
+<!-- 音乐播放器 -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+<!-- require MetingJS -->
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+<meting-js
+        id="329641066"
+        lrc-type="0"
+        server="netease"
+        order="random"
+        type="playlist"
+        fixed="true"
+        list-olded="true">
+</meting-js>
+
+
+<script type="text/javascript">
+/*加一只小猫咪*/
+
+$("#main").append('<div class="back-to-top cd-top faa-float animated cd-is-visible" style="top: -999px;"></div>')
+//scroll 事件适用于所有可滚动的元素和 window 对象（浏览器窗口）。
+$(window).scroll(function() {
+	var scroHei = $(window).scrollTop(); //滚动的高度
+	if (scroHei > 500) {
+		$('.back-to-top').css('top', '-200px');
+	} else {
+		$('.back-to-top').css('top', '-999px');
+	}
+})
+/*点击返回顶部*/
+$('.back-to-top').click(function() {
+$('body,html').animate({
+	scrollTop: 0
+}, 400);
+})
+
+</script>
+<div id="cnzzProtocol"  style="display: none;">
+    <span class="id_cnzz_stat_icon" id='cnzz_stat_icon_1278866025'></span>
+    <script src='https://s19.cnzz.com/z_stat.php?id=1278866025&online=1&show=line' type='text/javascript'></script>
+</div>
+<div id="cnzzProtocol"  style="display: none;">
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,476 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>xd会飞的猫 - 博客园</title>
+    <link id="favicon" rel="shortcut icon" href="//common.cnblogs.com/favicon.ico?v=20200522" type="image/x-icon" />
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=KCO3_f2W_TC__-jZ7phSnmoFkQuWMJH2yAgA16eE3eY" />
+    <link id="MainCss" rel="stylesheet" href="/skins/loveisintheair/bundle-loveisintheair.min.css?v=uI4derS8SzeklkcuGM9ZZcviZI9ud2nNvmccYFPeg2g" />
+    <link type="text/css" rel="stylesheet" href="https://www.cnblogs.com/xdcat/custom.css?v=AB073C0Se6mGvo0uJ/E53j&#x2B;p2vA=" />
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/loveisintheair/bundle-loveisintheair-mobile.min.css?v=pX6G4J5bGVxIWY7DIVGmuh5jg0uF78ayk3OyJdCklPI" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/xdcat/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/xdcat/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/xdcat/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=6bwfCY2e02dLOXNW99G2BHZkYFmw9QyYTWeJ-W-sudo"></script>
+    <script>
+        var currentBlogId = 369805;
+        var currentBlogApp = 'xdcat';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'LoveIsIntheAir';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    
+    
+<!--done-->
+<center>
+<div id="home">
+<div id="header">
+	<div id="blogTitle">
+	<a href="https://www.cnblogs.com/xdcat/"><img id="blogLogo" src="/skins/loveisintheair/images/logo.gif" alt="" /></a>			
+		
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/xdcat/">xd会飞的猫</a>
+</h1>
+<h2>
+
+</h2>
+
+
+
+
+		
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+	<div id="navigator">
+		
+<ul id="navList">
+	<li><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+	<li>
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/xdcat/">
+首页</a>
+</li>
+	<li>
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+	<li>
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/xd%E4%BC%9A%E9%A3%9E%E7%9A%84%E7%8C%AB">
+联系</a></li>
+	<li>
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+	<li>
+<a id="blog_nav_rss" class="menu" href="javascript:void(0)" data-rss="https://www.cnblogs.com/xdcat/rss/">
+订阅</a>
+	
+<a id="blog_nav_rss_image" href="https://www.cnblogs.com/xdcat/rss/">
+    <img src="/skins/loveisintheair/images/xml.gif" alt="订阅" />
+</a></li>
+</ul>
+
+
+		<div class="blogStats">
+			
+			<!--done-->
+随笔- 
+22&nbsp;
+文章- 
+0&nbsp;
+评论- 
+0&nbsp;
+
+
+
+			
+		</div><!--end: blogStats -->
+	</div><!--end: navigator 博客导航栏 -->
+</div><!--end: header 头部 -->
+
+<div class="clear"></div>
+	<div id="topicList">
+		
+<!--done-->
+
+
+
+
+		
+
+
+<div class="day">
+	<div class="dayTitle">
+		<a href="https://www.cnblogs.com/xdcat/archive/2020/05/30.html">2020年5月30日</a>				  
+	</div>
+
+	
+			<div class="postTitle">
+				
+
+<a class="postTitle2" href="https://www.cnblogs.com/xdcat/p/12986781.html">
+    【JVM】堆体系结构及其内存调优
+</a>
+
+			</div>
+			<div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：堆体系结构 一个JVM实例只存在一个堆内存，堆内存的大小是可调节的。类加载器读取类文件后，需要把类、方法、常量、变量放在堆内存中，保存所有引用类型的真实信息，以方便执行器指向，堆内存分为三个部分：年轻代、老年代、永久代。 Java7之前，堆内存在逻辑上分为：年轻代、老年代、永久代。物理上分为：年轻代            <a href="https://www.cnblogs.com/xdcat/p/12986781.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2020-05-30 12:49
+xd会飞的猫
+<span class="post-view-count">阅读(19)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12986781" rel="nofollow">
+    编辑
+</a>
+</div>
+			<div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+	<div class="dayTitle">
+		<a href="https://www.cnblogs.com/xdcat/archive/2020/05/29.html">2020年5月29日</a>				  
+	</div>
+
+	
+			<div class="postTitle">
+				
+
+<a class="postTitle2" href="https://www.cnblogs.com/xdcat/p/12988691.html">
+    动态规划的解题思路是如何形成的
+</a>
+
+			</div>
+			<div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：机器人走路问题 一个机器人可以在1~N上行走，每一步可以向前或向后走，给定起点S &gt; 1，终点 &lt; N，每一次行走K步，机器人从S走到E一共有多少种方法。 暴力递归 暴力递归存在大量重复的递归过程。可以用空间换取时间，记录可能出现的重复解，之后不需要递归展开直接拿到之前算过的值。即，记忆化搜索。时间            <a href="https://www.cnblogs.com/xdcat/p/12988691.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2020-05-29 17:34
+xd会飞的猫
+<span class="post-view-count">阅读(4)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12988691" rel="nofollow">
+    编辑
+</a>
+</div>
+			<div class="clear"></div>
+			<div class="postSeparator"></div>
+			<div class="postTitle">
+				
+
+<a class="postTitle2" href="https://www.cnblogs.com/xdcat/p/12985749.html">
+    【JVM】体系结构及其细节
+</a>
+
+			</div>
+			<div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：JVM JVM运行在操作系统之上，与硬件没有直接的交互。引入Java语言虚拟机后，Java语言在不同平台上运行时不需要重新编译。Java语言使用Java虚拟机屏蔽了与具体平台相关的信息，使得Java语言编译程序只需生成在Java虚拟机上运行的目标代码（字节码），就可以在多种平台上不加修改地运行。 J            <a href="https://www.cnblogs.com/xdcat/p/12985749.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2020-05-29 12:15
+xd会飞的猫
+<span class="post-view-count">阅读(98)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12985749" rel="nofollow">
+    编辑
+</a>
+</div>
+			<div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+	<div class="dayTitle">
+		<a href="https://www.cnblogs.com/xdcat/archive/2020/05/28.html">2020年5月28日</a>				  
+	</div>
+
+	
+			<div class="postTitle">
+				
+
+<a class="postTitle2" href="https://www.cnblogs.com/xdcat/p/12984786.html">
+    位运算的题目小结
+</a>
+
+			</div>
+			<div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：位运算的基础 位操作都是对补码进行操作 正数的补码是自己 负数的补码是源码取反+1 已知补码求反码：补码-1后取反，取反过程中符号位不变 补码：源码取反+1，取反过程中符号位不变 两次异或之后还是原值 a^b^b = a 可以应用在加密上 b是密钥 异或：实现两个变量值的交换 a = a ^ b b            <a href="https://www.cnblogs.com/xdcat/p/12984786.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2020-05-28 23:36
+xd会飞的猫
+<span class="post-view-count">阅读(15)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12984786" rel="nofollow">
+    编辑
+</a>
+</div>
+			<div class="clear"></div>
+			<div class="postSeparator"></div>
+			<div class="postTitle">
+				
+
+<a class="postTitle2" href="https://www.cnblogs.com/xdcat/p/12983130.html">
+    【JUC】死锁的实现及其定位分析
+</a>
+
+			</div>
+			<div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：死锁的概念 两个或两个以上的进程在执行过程中，因抢夺资源而造成的一种互相等待的现象，若无外力干涉，它们都无法继续推进，如果系统资源充足，进程的资源请求都能够得到满足，死锁出现的可能性就很低，否则就会因争夺有限的资源而陷入死锁。 实现死锁 1 class HoldLockThread implemen            <a href="https://www.cnblogs.com/xdcat/p/12983130.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2020-05-28 18:50
+xd会飞的猫
+<span class="post-view-count">阅读(6)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12983130" rel="nofollow">
+    编辑
+</a>
+</div>
+			<div class="clear"></div>
+			<div class="postSeparator"></div>
+			<div class="postTitle">
+				
+
+<a class="postTitle2" href="https://www.cnblogs.com/xdcat/p/12981188.html">
+    【JUC】如何理解线程池？第四种使用线程的方式
+</a>
+
+			</div>
+			<div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：线程池的概念 线程池的主要工作的控制运行的线程的数量，处理过程种将任务放在队列，线程创建后再启动折现任务，如果线程数量超过了最大的数量，则超过部分的线程排队等待，直到其他线程执行完毕后，从队列种取出任务来执行。 处理流程： 1.线程池判断核心线程池的线程是否全部在执行任务？ 1.1 不是：创建一个新            <a href="https://www.cnblogs.com/xdcat/p/12981188.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2020-05-28 18:24
+xd会飞的猫
+<span class="post-view-count">阅读(134)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12981188" rel="nofollow">
+    编辑
+</a>
+</div>
+			<div class="clear"></div>
+			<div class="postSeparator"></div>
+			<div class="postTitle">
+				
+
+<a class="postTitle2" href="https://www.cnblogs.com/xdcat/p/12981183.html">
+    【JUC】实现多线程的第三种方式Callable
+</a>
+
+			</div>
+			<div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：实现线程的三种方式比较 1. 继承Thread类 1 class ExtendsThread extends Thread{ 2 public void run(){ 3 System.out.println(&quot;Thread&quot;); 4 } 5 } 6 public class RunnableDem            <a href="https://www.cnblogs.com/xdcat/p/12981183.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2020-05-28 15:33
+xd会飞的猫
+<span class="post-view-count">阅读(5)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12981183" rel="nofollow">
+    编辑
+</a>
+</div>
+			<div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+	<div class="dayTitle">
+		<a href="https://www.cnblogs.com/xdcat/archive/2020/05/27.html">2020年5月27日</a>				  
+	</div>
+
+	
+			<div class="postTitle">
+				
+
+<a class="postTitle2" href="https://www.cnblogs.com/xdcat/p/12976735.html">
+    可怜的实验鼠和小猪问题
+</a>
+
+			</div>
+			<div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：8杯水里，一杯水中1种毒药，喝下去马上就会毒发，需要至少几只实验鼠能测出来哪杯有毒？ 3只。 马上毒发：实验鼠有两种状态，可以视为0死亡，1存活。 3只鼠，一共就有2^3=8种状态，通过鼠的8种状态可以来判断哪杯水有毒。 000，001，010，011，100，101，110，111 第1杯水编号0            <a href="https://www.cnblogs.com/xdcat/p/12976735.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2020-05-27 21:30
+xd会飞的猫
+<span class="post-view-count">阅读(9)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12976735" rel="nofollow">
+    编辑
+</a>
+</div>
+			<div class="clear"></div>
+			<div class="postSeparator"></div>
+			<div class="postTitle">
+				
+
+<a class="postTitle2" href="https://www.cnblogs.com/xdcat/p/12971855.html">
+    面试中很值得聊的二叉树遍历方法——Morris遍历
+</a>
+
+			</div>
+			<div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：Morris遍历 通过利用空闲指针的方式，来节省空间。时间复杂度O(N)，额外空间复杂度O(1)。普通的非递归和递归方法的额外空间和树的高度有关，递归的过程涉及到系统压栈，非递归需要自己申请栈空间，都具有O(N)的额外空间复杂度。 Morris遍历的原则: 1. 假设当前节点为cur， 2. 如果c            <a href="https://www.cnblogs.com/xdcat/p/12971855.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2020-05-27 12:01
+xd会飞的猫
+<span class="post-view-count">阅读(152)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(4)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12971855" rel="nofollow">
+    编辑
+</a>
+</div>
+			<div class="clear"></div>
+			<div class="postSeparator"></div>
+			<div class="postTitle">
+				
+
+<a class="postTitle2" href="https://www.cnblogs.com/xdcat/p/12970855.html">
+    【Leetcode】560. 和为K的子数组&amp;974. 和可被 K 整除的子数组（前缀和+哈希表）
+</a>
+
+			</div>
+			<div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：1 public class Solution { 2 public int subarraySum(int[] nums, int k) { 3 int count = 0, pre = 0; 4 HashMap &lt; Integer, Integer &gt; map = new HashMap &lt; &gt;            <a href="https://www.cnblogs.com/xdcat/p/12970855.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+			<div class="clear"></div>
+			<div class="postDesc">posted @ 2020-05-27 10:13
+xd会飞的猫
+<span class="post-view-count">阅读(6)</span><text> </text>
+<span class="post-comment-count">评论(0)</span><text> </text>
+<span class="post-digg-count">推荐(0)</span><text> </text>
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12970855" rel="nofollow">
+    编辑
+</a>
+</div>
+			<div class="clear"></div>
+
+</div>
+
+
+
+<div class="topicListFooter">
+    <div id="nav_next_page">
+        
+    <a href="https://www.cnblogs.com/xdcat/default.html?page=2">
+        下一页
+    </a>
+
+    </div>    
+</div>
+
+
+
+
+
+
+
+
+	</div><!--end: topicList 文章列表容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+			
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+<div id="sidebar_ad"></div>
+			<div id="calendar"><div id="calendar"><div id="blog-calendar" style="display:none"></div></div>                
+                    <script>loadBlogDefaultCalendar();</script></div>
+			
+			<DIV id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+			</DIV>
+			
+		</div><!--end: sideBarMain -->
+		<div class="clear"></div>
+		<div id="footer">
+			<!--done-->
+Copyright &copy; 2020 xd会飞的猫
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+
+
+		</div><!--end: footer -->
+	</div><!--end: sideBar 侧边栏容器 -->
+</div><!--end: home 自定义的最大容器 -->
+</center>
+
+
+    
+</body>
+</html>
