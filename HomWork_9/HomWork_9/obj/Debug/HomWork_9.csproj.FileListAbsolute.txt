@@ -1,0 +1,10 @@
+D:\soft\vs2017安装\vs 编写项目文件\HomWork_9\HomWork_9\bin\Debug\HomWork_9.exe.config
+D:\soft\vs2017安装\vs 编写项目文件\HomWork_9\HomWork_9\bin\Debug\HomWork_9.exe
+D:\soft\vs2017安装\vs 编写项目文件\HomWork_9\HomWork_9\bin\Debug\HomWork_9.pdb
+D:\soft\vs2017安装\vs 编写项目文件\HomWork_9\HomWork_9\obj\Debug\HomWork_9.csprojAssemblyReference.cache
+D:\soft\vs2017安装\vs 编写项目文件\HomWork_9\HomWork_9\obj\Debug\HomWork_9.Form1.resources
+D:\soft\vs2017安装\vs 编写项目文件\HomWork_9\HomWork_9\obj\Debug\HomWork_9.Properties.Resources.resources
+D:\soft\vs2017安装\vs 编写项目文件\HomWork_9\HomWork_9\obj\Debug\HomWork_9.csproj.GenerateResource.cache
+D:\soft\vs2017安装\vs 编写项目文件\HomWork_9\HomWork_9\obj\Debug\HomWork_9.csproj.CoreCompileInputs.cache
+D:\soft\vs2017安装\vs 编写项目文件\HomWork_9\HomWork_9\obj\Debug\HomWork_9.exe
+D:\soft\vs2017安装\vs 编写项目文件\HomWork_9\HomWork_9\obj\Debug\HomWork_9.pdb
